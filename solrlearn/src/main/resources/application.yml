@@ -1,0 +1,9 @@
+spring:
+  data:
+    solr:
+      host: http://localhost:8983/solr/new_core
+      repositories:
+        enabled: true
+logging:
+  level:
+    site.yourdiary.solrlearn: debug

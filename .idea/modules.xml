@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loghandle/loghandle.iml" filepath="$PROJECT_DIR$/loghandle/loghandle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solrdemo/solrdemo.iml" filepath="$PROJECT_DIR$/solrdemo/solrdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solrlearn/solrlearn.iml" filepath="$PROJECT_DIR$/solrlearn/solrlearn.iml" />
+    </modules>
+  </component>
+</project>
