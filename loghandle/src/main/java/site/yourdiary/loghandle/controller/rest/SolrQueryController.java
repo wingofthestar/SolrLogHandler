@@ -1,4 +1,4 @@
-package site.yourdiary.loghandle.controller;
+package site.yourdiary.loghandle.controller.rest;
 
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrServerException;

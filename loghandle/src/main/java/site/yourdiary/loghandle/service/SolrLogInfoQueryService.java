@@ -12,9 +12,11 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.solr.core.SolrTemplate;
 import org.springframework.data.solr.core.query.result.HighlightPage;
+import org.springframework.data.solr.core.query.result.SolrResultPage;
 import org.springframework.stereotype.Service;
 import site.yourdiary.loghandle.entity.solr.LogInfo;
 import site.yourdiary.loghandle.exception.SolrCurdException;
+import site.yourdiary.loghandle.pojo.LayuiTableResponseInfo;
 import site.yourdiary.loghandle.respository.solr.SolrLogInfoRepository;
 
 import java.util.ArrayList;
@@ -180,6 +182,23 @@ public class SolrLogInfoQueryService {
             logger.error("通过content分页查询日志信息出错" + e);
             throw new SolrCurdException("通过content分页查询日志信息出错" + e);
         }
+    }
+
+
+    public LayuiTableResponseInfo queryByLevel2(String level) throws SolrCurdException {
+        return null;
+    }
+
+
+    public LayuiTableResponseInfo layuiQueryByLevelPage(int pageNumber, int pageSize, String level){
+        Sort sort = new Sort(Sort.Direction.ASC, "id");
+        PageRequest request = this.buildPageRequest(pageNumber, pageSize, sort);
+        Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByLevel(level, request);
+        Long total = solrLogInfoRepository.countByLevel(level);
+        String message = "查询level:"+level+"的日志信息成功";
+        LayuiTableResponseInfo layuiTableResponseInfo = new LayuiTableResponseInfo(LayuiTableResponseInfo.Ok, message,
+                total, logInfoPage.getContent());
+        return layuiTableResponseInfo;
     }
 }
 

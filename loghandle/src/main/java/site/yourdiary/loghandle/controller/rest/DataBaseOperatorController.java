@@ -1,4 +1,4 @@
-package site.yourdiary.loghandle.controller;
+package site.yourdiary.loghandle.controller.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

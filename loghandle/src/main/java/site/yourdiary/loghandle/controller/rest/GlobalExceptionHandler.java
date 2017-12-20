@@ -1,4 +1,4 @@
-package site.yourdiary.loghandle.controller;
+package site.yourdiary.loghandle.controller.rest;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
