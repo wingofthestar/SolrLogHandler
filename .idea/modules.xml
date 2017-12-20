@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/loghandle/loghandle.iml" filepath="$PROJECT_DIR$/loghandle/loghandle.iml" />
       <module fileurl="file://$PROJECT_DIR$/solrdemo/solrdemo.iml" filepath="$PROJECT_DIR$/solrdemo/solrdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/solrlearn/solrlearn.iml" filepath="$PROJECT_DIR$/solrlearn/solrlearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleaflearn/thymeleaflearn.iml" filepath="$PROJECT_DIR$/thymeleaflearn/thymeleaflearn.iml" />
     </modules>
   </component>
 </project>
