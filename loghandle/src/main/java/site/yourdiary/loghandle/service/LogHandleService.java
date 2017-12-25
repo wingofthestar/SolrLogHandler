@@ -24,7 +24,7 @@ public class LogHandleService {
 
         List<LogInfoData> logMapList = new ArrayList();
         List<File> logFileList = new ArrayList<>();
-        File file = new File("D:\\solrlog");
+        File file = new File("C:\\solrlog");
         File[] fileList = file.listFiles();
         for (File logFile : fileList) {
             if (logFile.isFile() && logFile.exists()) {

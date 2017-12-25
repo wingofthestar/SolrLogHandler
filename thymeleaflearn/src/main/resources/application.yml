@@ -1,0 +1,7 @@
+logging:
+  level:
+   org.springframework.web: DEBUG
+   site.yourdiary.thymeleaflearn: DEBUG
+spring:
+  thymeleaf:
+    suffix: .html

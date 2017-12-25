@@ -26,6 +26,8 @@ public interface SolrLogInfoRepository extends SolrCrudRepository<LogInfo, Strin
 
     Page<LogInfo> findLogInfoPageByContent(String content, Pageable pageable);
 
+    Page<LogInfo> findLogInfoByPid(String pid, Pageable pageable);
+
     @Highlight(prefix = "<b>", postfix = "</b>")
     HighlightPage<LogInfo> findLogInfoHighlightPageByContent(String content, Pageable pageable);
 

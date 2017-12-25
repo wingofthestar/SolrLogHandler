@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Good Thymes Virtual Grocery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all"
+          href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" />
+</head>
+
+<body>
+
+<p th:text="${home}">Welcome to our grocery store!</p>
+<p>Today is: <span th:text="${today}"> 13 February2011</span></p>
+<p>客户的电话号码为:<span th:text="${user.phoneNumber}">13221056080</span></p>
+<p>客户的邮箱地址为:<span th:text="${user.Email}">xueliuxing2011@163.com</span></p>
+<p>客户的姓名为：<span th:text="${user.getName()}">张三</span></p>
+<p>The year is <span th:text="2013">1492</span>.</p>
+<p>In two years, it will be <span th:text="2013 + 2">1494</span>.</p>
+<p>
+    Now you are looking at a <span th:text="'working web application'">template file</span>.
+</p>
+<div th:class="content">...</div>
+<span th:text="'The name of the user is ' + ${user.name}"/>
+<form action="subscribe.html" th:attr="action=@{/subscribe}">
+    <fieldset>
+        <input type="text" name="email" />
+        <input type="submit" value="Subscribe!" th:attr="value=提交"/>
+    </fieldset>
+</form>
+
+<h1>Product list</h1>
+
+<table>
+    <tr>
+        <th>NAME</th>
+        <th>PRICE</th>
+        <th>ADDRESS</th>
+    </tr>
+    <tr th:each="product : ${productList}">
+        <td th:text="${product.name}">手机</td>
+        <td th:text="${product.price}">3788</td>
+        <td th:text="${product.address}">北京</td>
+    </tr>
+</table>
+<div th:switch="${user.role}">
+    <p th:case="'admin'">User is an administrator</p>
+    <p th:case="'manager'">User is a manager</p>
+</div>
+
+<div>
+    <p th:inline="text">
+        Dear [[${user.name}]],
+
+        This is the list of our products:
+
+        [#th:block th:each="product : ${productList}"]
+        - [#th:block th:utext="${product.price}" /]
+        [/th:block]
+
+        Thanks,
+        The Thymeleaf Shop
+    </p>
+</div>
+</body>
+
+</html>

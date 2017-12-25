@@ -11,11 +11,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.solr.core.SolrTemplate;
+import org.springframework.data.solr.core.query.result.HighlightEntry;
 import org.springframework.data.solr.core.query.result.HighlightPage;
 import org.springframework.data.solr.core.query.result.SolrResultPage;
 import org.springframework.stereotype.Service;
 import site.yourdiary.loghandle.entity.solr.LogInfo;
 import site.yourdiary.loghandle.exception.SolrCurdException;
+import site.yourdiary.loghandle.pojo.BootstrapResponseInfo;
 import site.yourdiary.loghandle.pojo.LayuiTableResponseInfo;
 import site.yourdiary.loghandle.respository.solr.SolrLogInfoRepository;
 
@@ -184,12 +186,6 @@ public class SolrLogInfoQueryService {
         }
     }
 
-
-    public LayuiTableResponseInfo queryByLevel2(String level) throws SolrCurdException {
-        return null;
-    }
-
-
     public LayuiTableResponseInfo layuiQueryByLevelPage(int pageNumber, int pageSize, String level){
         Sort sort = new Sort(Sort.Direction.ASC, "id");
         PageRequest request = this.buildPageRequest(pageNumber, pageSize, sort);
@@ -199,6 +195,62 @@ public class SolrLogInfoQueryService {
         LayuiTableResponseInfo layuiTableResponseInfo = new LayuiTableResponseInfo(LayuiTableResponseInfo.Ok, message,
                 total, logInfoPage.getContent());
         return layuiTableResponseInfo;
+    }
+
+    /**
+     * 按照BootstrapTable的格式根据level分页查询日志信息
+     * @param pageNumber
+     * @param pageSize
+     * @param level
+     * @return
+     */
+    public BootstrapResponseInfo bootstrapSolrQueryByLevel(int pageNumber, int pageSize, String level) {
+        Sort sort = new Sort(Sort.Direction.ASC, "id");
+        PageRequest request = this.buildPageRequest(pageNumber, pageSize, sort);
+        Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByLevel(level, request);
+        Long total = logInfoPage.getTotalElements();
+        BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(total, logInfoPage.getContent());
+        return bootstrapResponseInfo;
+    }
+
+    /**
+     * 按照BootstrapTable的格式根据Content分页高亮查询
+     * @param pageNumber
+     * @param pageSize
+     * @param content
+     * @return
+     */
+    public BootstrapResponseInfo bootstrapContentWithHightLightPage(int pageNumber, int pageSize, String content) {
+        Sort sort = new Sort(Sort.Direction.ASC, "id");
+        PageRequest request = this.buildPageRequest(pageNumber, pageSize, sort);
+        HighlightPage<LogInfo> logInfoHighlightPage = solrLogInfoRepository.findLogInfoHighlightPageByContent(content, request);
+        List<HighlightEntry<LogInfo>> logInfoHighlightPageHighlighted = logInfoHighlightPage.getHighlighted();
+        List<LogInfo> logInfos = new ArrayList<>();
+        for (HighlightEntry<LogInfo> logInfoHighlightEntry : logInfoHighlightPageHighlighted) {
+            LogInfo hightLightedLogInfo = logInfoHighlightEntry.getEntity();
+            hightLightedLogInfo.setContent(logInfoHighlightEntry.getHighlights().get(0).getSnipplets().get(0));
+            logInfos.add(hightLightedLogInfo);
+        }
+        Long total = logInfoHighlightPage.getTotalElements();
+        BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(total, logInfos);
+        return bootstrapResponseInfo;
+    }
+
+    /**
+     * 按照BootstrapTable的格式根据id分页查询信息
+     * @param pageNumber
+     * @param pageSize
+     * @param pid
+     * @return
+     */
+    public BootstrapResponseInfo bootstrapQueryIndexByPid(int pageNumber, int pageSize, String pid) {
+        Sort sort = new Sort(Sort.Direction.ASC, "id");
+        PageRequest request = this.buildPageRequest(pageNumber, pageSize, sort);
+        Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoByPid(pid, request);
+        List<LogInfo> logInfoList = logInfoPage.getContent();
+        Long tatal = logInfoPage.getTotalElements();
+        BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(tatal, logInfoList);
+        return bootstrapResponseInfo;
     }
 }
 

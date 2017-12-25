@@ -1,0 +1,11 @@
+
+Dear [(${user.name})],
+
+This is the list of our products:
+
+[# th:each="prod : ${productList}"]
+- [(${prod.name})]. Price: [(${prod.price})] EUR/kg
+[/]
+
+Thanks,
+The Thymeleaf Shop
