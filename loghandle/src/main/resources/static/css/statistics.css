@@ -1,0 +1,82 @@
+.statistics{
+	position: absolute;
+	height: 600px;
+	width: 900px;
+	top: 80px;
+	background: #D5D5D5;
+	opacity: 0.5;
+	margin-left: 200px;
+	border: 0px solid #24292E;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.statistics a{
+	text-decoration: none;
+}
+.statistics h1{
+	margin-left: 30px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	font-size: 26px;
+}
+.window{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 200px;
+	height: 60px;
+	border: 0 inset #000000;
+	
+}
+.statistics p{
+	margin-left: 5px;
+	margin-top: 5px;
+	font-family: "微软雅黑";
+}
+.progress{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.mac{
+	position: absolute;
+	margin-left: 240px;
+	margin-top: 20px;
+	width: 200px;
+	height: 60px;
+	border: 0 inset #000000;
+	
+}
+.linux{
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 20px;
+	width: 200px;
+	height: 60px;
+	border: 0 inset #000000;
+	
+}
+.iphone{
+	position: absolute;
+	margin-left: 660px;
+	margin-top: 20px;
+	width: 200px;
+	height: 60px;
+	border: 0 inset #000000;
+	
+}
+.detail{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 110px;
+	width: 830px;
+	height: 430px;
+	border: 2px solid #000000;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}

@@ -29,6 +29,8 @@ public class LogInfo{
         this.content = content;
     }
 
+
+
     public String getId() {
         return id;
     }

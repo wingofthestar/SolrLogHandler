@@ -1,0 +1,47 @@
+.search{
+	position: absolute;
+	height: 600px;
+	width: 900px;
+	top: 100px;
+	margin-left: 200px;
+	border: 2px solid #24292E;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.search h1{
+	margin-left: 39%;
+	margin-top: 10px;
+	font-family: "微软雅黑";
+	font-size: 28px;
+}
+.go{
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 700px;
+}
+.choose{
+	margin-top: 80px;
+	margin-left: 130px;
+	width: 700px;
+}
+.choose label{
+	padding-left: 110px;
+	color: #BBBBBB;
+}
+.detail{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 830px;
+	height: 430px;
+	border: 1px solid #000000;
+}
+input[type='text']{
+	height: 50px;
+}
+.btn-info{
+	height: 50px;
+	width: 80px;
+}

@@ -2,60 +2,168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6162ffb8-a6d9-4e79-8722-7ffa2a16b105" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/BootstrapResponseInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/other/logHandleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/ThymeleaflearnApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/controller/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/controller/ThyController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/pojo/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/pojo/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/service/LoginService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/service/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/resources/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thymeleaflearn/src/main/resources/templates/note.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/SolrQueryTest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/img/SolrLog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/img/SolrLog2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/img/user.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/config/CorsConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/FlushInfoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/Table-text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/statistics.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap-table-zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap-table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/statistics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/refer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/statistics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/templates/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/layui.mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/table.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/pom.xml" afterPath="$PROJECT_DIR$/loghandle/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogHandleService.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogHandleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/table.html" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/table.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_0_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_3_0_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_3_RELEASE.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,116 +197,130 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="FlushInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LayuiSolrQueryController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/layui/LayuiSolrQueryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootStrapQueryController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataBaseOperatorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/DataBaseOperatorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolrAndDataBaseInitController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlushInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/FlushInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#errorNumberReport#0;class#ReportService#0" expanded="false" />
+                <element signature="method#errorNumberReport#0;class#ReportService#0" expanded="false" />
+                <element signature="docComment;method#errorListReport#0;class#ReportService#0" expanded="false" />
+                <element signature="method#errorListReport#0;class#ReportService#0" expanded="false" />
+                <element signature="docComment;method#timeOutWarningNumber#0;class#ReportService#0" expanded="false" />
+                <element signature="method#timeOutWarningNumber#0;class#ReportService#0" expanded="false" />
+                <element signature="docComment;method#allLogInfoNumber#0;class#ReportService#0" expanded="false" />
+                <element signature="method#allLogInfoNumber#0;class#ReportService#0" expanded="false" />
+                <element signature="docComment;method#logFileNumber#0;class#ReportService#0" expanded="false" />
+                <element signature="method#logFileNumber#0;class#ReportService#0" expanded="false" />
+                <element signature="docComment;method#getDateStr#0;class#ReportService#0" expanded="false" />
+                <element signature="method#getDateStr#0;class#ReportService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlushInfoRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootStrapQueryController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="71" selection-end-column="7" />
+            <state relative-caret-position="-312">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#BootstrapSolrQueryByLevel#0;class#BootStrapQueryController#0" expanded="false" />
                 <element signature="docComment;method#queryIndexByContentWithHightPage#0;class#BootStrapQueryController#0" expanded="false" />
                 <element signature="docComment;method#queryIndexByPid#0;class#BootStrapQueryController#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrQueryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrLogInfoQueryService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="222" column="33" lean-forward="false" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
-              <folding>
-                <element signature="method#queryContentWithColor#0;class#SolrLogInfoQueryService#0" expanded="false" />
-                <element signature="method#queryContent#0;class#SolrLogInfoQueryService#0" expanded="false" />
-                <element signature="method#layuiQueryByLevelPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
-                <element signature="docComment;method#bootstrapSolrQueryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
-                <element signature="method#bootstrapSolrQueryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
-                <element signature="docComment;method#bootstrapContentWithHightLightPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
-                <element signature="docComment;method#bootstrapQueryIndexByPid#0;class#SolrLogInfoQueryService#0" expanded="false" />
-                <element signature="method#bootstrapQueryIndexByPid#0;class#SolrLogInfoQueryService#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrLogInfoRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrCrudRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.0.11.RELEASE/spring-data-solr-2.0.11.RELEASE.jar!/org/springframework/data/solr/repository/SolrCrudRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.0.11.RELEASE/spring-data-solr-2.0.11.RELEASE.jar!/org/springframework/data/solr/repository/SolrRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HighlightPage.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.0.11.RELEASE/spring-data-solr-2.0.11.RELEASE.jar!/org/springframework/data/solr/core/query/result/HighlightPage.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrIndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrIndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -224,6 +346,8 @@
       <find>logInfoRepository</find>
       <find>logInfoQueryService</find>
       <find>logInfoSolrIndexService</find>
+      <find>06</find>
+      <find>系统运行异常</find>
     </findStrings>
     <replaceStrings>
       <replace>line</replace>
@@ -247,24 +371,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/loghandle/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogInfoSolrIndexService.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/LogInfoSolrRepository.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/LogInfoController.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogInfoSaveService.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/LogInfoDataBaseRepository.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogInfoDataBaseSaveService.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/DataBaseLogInfoDeleteService.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/DataBaseLogInfoRepository.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/exception/DataBaseCurdException.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/DataBaseOperatorController.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/DataBaseLogInfoService.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/exception/SolrAndDataBaseInitException.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/SolrAndDataBaseInitController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/InitSolrAndDataBaseService.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/SolrIndexController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoIndexService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/ResponseInfo2.java" />
@@ -273,7 +381,6 @@
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/layui/LayuiSolrLogInfoQueryService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/layui/LayuiSolrQueryController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/LayuiTableResponseInfo.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/loghandle/src/main/resources/homt.html" />
         <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/home.html" />
         <option value="$PROJECT_DIR$/thymeleaflearn/src/main/resources/static/index.html" />
@@ -292,12 +399,29 @@
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogHandleService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/SolrQueryTest.java" />
         <option value="$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/other/logHandleTest.java" />
-        <option value="$PROJECT_DIR$/loghandle/pom.xml" />
         <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/table.html" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/BootstrapResponseInfo.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java" />
+        <option value="$PROJECT_DIR$/loghandle/pom.xml" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/ThyController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushTime.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/FlushInfoController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/FlushInfoService.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/FlushInfoRestController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushInfo.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/FlushInfoController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/js/index.js" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java" />
       </list>
     </option>
   </component>
@@ -449,6 +573,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="loghandle" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -459,6 +594,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="thy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -471,79 +617,6 @@
               <item name="loghandle" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="respository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="respository" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="respository" type="462c0819:PsiDirectoryNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -577,34 +650,19 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="loghandle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="loghandle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -635,16 +693,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learn\Activiti-develop\demo\thymeleaflearn\src\main\resources\templates" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="site.yourdiary.loghandle.other" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="site.yourdiary.loghandle.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Learn\Activiti-develop\demo\loghandle\src\main\resources\static" />
+      <recent name="D:\Learn\Activiti-develop\demo\loghandle\src\main\resources\static\css" />
+      <recent name="D:\Learn\Activiti-develop\demo\loghandle\src\main\resources\static\js" />
+      <recent name="D:\Learn\Activiti-develop\demo\loghandle\src\main\resources\templates" />
       <recent name="D:\Learn\Activiti-develop\demo\loghandle\src\main\resources" />
-      <recent name="D:\Learn\Activiti-develop\demo\loghandle\src\main\java\site\yourdiary\loghandle\entity\jpa" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Learn\Activiti-develop\demo\thymeleaflearn\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -940,7 +1003,7 @@
       <workItem from="1514100293379" duration="630000" />
       <workItem from="1514102961354" duration="636000" />
       <workItem from="1514124484973" duration="599000" />
-      <workItem from="1514166512137" duration="7171000" />
+      <workItem from="1514166512137" duration="28252000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <created>1513738520576</created>
@@ -992,7 +1055,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139252000" />
+    <option name="totallyTimeSpent" value="160333000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1014,17 +1077,17 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02164009" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5899772" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39645922" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4692483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17312072" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.93280184" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3329493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50965667" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3138412" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1055,7 +1118,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1068,203 +1131,12 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/layui/LayuiSolrLogInfoQueryService.java" />
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/ResponseInfo2.java" />
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/ResponseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/homt.html" />
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/DataBaseOperatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/test/java/site/yourdiary/thymeleaflearn/ThymeleaflearnApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/pojo/Home.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/ThymeleaflearnApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/pojo/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/java/site/yourdiary/thymeleaflearn/controller/ThyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/resources/templates/note.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/4.3.11.RELEASE/spring-expression-4.3.11.RELEASE.jar!/org/springframework/expression/spel/ast/PropertyOrFieldReference.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thymeleaflearn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/DataBaseLogInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/InitSolrAndDataBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/SolrQueryTest.java" />
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/LoghandleApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1282,24 +1154,6 @@
         <state relative-caret-position="24">
           <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogHandleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,8 +1190,8 @@
         <state relative-caret-position="184">
           <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1356,14 +1210,6 @@
             <element signature="e#535#536#0" expanded="true" />
             <element signature="e#567#568#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/layui/LayuiSolrQueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,14 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.0.11.RELEASE/spring-data-solr-2.0.11.RELEASE.jar!/org/springframework/data/solr/repository/SolrRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1410,15 +1248,173 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.0.11.RELEASE/spring-data-solr-2.0.11.RELEASE.jar!/org/springframework/data/solr/repository/SolrCrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+          <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/5.5.4/solr-solrj-5.5.4.jar!/org/apache/solr/common/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.0.11.RELEASE/spring-data-solr-2.0.11.RELEASE.jar!/org/springframework/data/solr/core/query/Criteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="76" column="7" lean-forward="false" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrJManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="92" column="12" lean-forward="false" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrlearn/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaflearn/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/ThyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/java/jdk/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="176" column="11" lean-forward="false" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+          <folding>
+            <element signature="e#6844#6845#0" expanded="false" />
+            <element signature="e#6875#6876#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/FlushInfoRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/DataBaseLogInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/FlushInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="222" column="33" lean-forward="false" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+        <state relative-caret-position="203">
+          <caret line="139" column="54" lean-forward="false" selection-start-line="139" selection-start-column="54" selection-end-line="139" selection-end-column="54" />
           <folding>
             <element signature="method#queryContentWithColor#0;class#SolrLogInfoQueryService#0" expanded="false" />
             <element signature="method#queryContent#0;class#SolrLogInfoQueryService#0" expanded="false" />
@@ -1427,28 +1423,191 @@
             <element signature="method#bootstrapSolrQueryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
             <element signature="docComment;method#bootstrapContentWithHightLightPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
             <element signature="docComment;method#bootstrapQueryIndexByPid#0;class#SolrLogInfoQueryService#0" expanded="false" />
-            <element signature="method#bootstrapQueryIndexByPid#0;class#SolrLogInfoQueryService#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="260" column="1" lean-forward="false" selection-start-line="260" selection-start-column="1" selection-end-line="260" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="82" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+        <state relative-caret-position="322">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogHandleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="136" column="61" lean-forward="true" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buildConfig#0;class#CorsConfig#0" expanded="false" />
+            <element signature="method#corsFilter#0;class#CorsConfig#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="71" selection-end-column="7" />
+        <state relative-caret-position="-312">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#BootstrapSolrQueryByLevel#0;class#BootStrapQueryController#0" expanded="false" />
             <element signature="docComment;method#queryIndexByContentWithHightPage#0;class#BootStrapQueryController#0" expanded="false" />
             <element signature="docComment;method#queryIndexByPid#0;class#BootStrapQueryController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/layui/LayuiSolrQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/DataBaseOperatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/FlushInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#errorNumberReport#0;class#ReportService#0" expanded="false" />
+            <element signature="method#errorNumberReport#0;class#ReportService#0" expanded="false" />
+            <element signature="docComment;method#errorListReport#0;class#ReportService#0" expanded="false" />
+            <element signature="method#errorListReport#0;class#ReportService#0" expanded="false" />
+            <element signature="docComment;method#timeOutWarningNumber#0;class#ReportService#0" expanded="false" />
+            <element signature="method#timeOutWarningNumber#0;class#ReportService#0" expanded="false" />
+            <element signature="docComment;method#allLogInfoNumber#0;class#ReportService#0" expanded="false" />
+            <element signature="method#allLogInfoNumber#0;class#ReportService#0" expanded="false" />
+            <element signature="docComment;method#logFileNumber#0;class#ReportService#0" expanded="false" />
+            <element signature="method#logFileNumber#0;class#ReportService#0" expanded="false" />
+            <element signature="docComment;method#getDateStr#0;class#ReportService#0" expanded="false" />
+            <element signature="method#getDateStr#0;class#ReportService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
           </folding>
         </state>
       </provider>

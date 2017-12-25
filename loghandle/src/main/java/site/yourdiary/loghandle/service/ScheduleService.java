@@ -15,18 +15,24 @@ import java.util.Date;
 public class ScheduleService {
     private static final Logger logger = LoggerFactory.getLogger(Scheduled.class);
     private InitSolrAndDataBaseService initSolrAndDataBaseService;
+    private FlushInfoService flushInfoService;
     @Autowired
     public void setInitSolrAndDataBaseService(InitSolrAndDataBaseService initSolrAndDataBaseService) {
         this.initSolrAndDataBaseService = initSolrAndDataBaseService;
     }
+    @Autowired
+    public void setFlushInfoService(FlushInfoService flushInfoService) {
+        this.flushInfoService = flushInfoService;
+    }
 
     /**
-     * 每天定时同步初始化数据库和Solr索引失败
+     * 每天定时同步初始化数据库和Solr索引库
      */
-    @Scheduled(cron = "0 0 6 * * ?") //每天凌晨6点执行一次
+    @Scheduled(cron = "0 0 0 * * ?") //每天凌晨6点执行一次
     public void scheduler(){
         try {
             initSolrAndDataBaseService.InitSolrAndDataBase();
+            flushInfoService.saveFlushInfo(new Date());
         } catch (SolrAndDataBaseInitException e) {
             logger.error("定时同步初始化数据库和Solr索引失败" + "time:" + new Date() + e.toString());
         }

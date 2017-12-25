@@ -11,15 +11,16 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.solr.core.SolrTemplate;
+import org.springframework.data.solr.core.query.Criteria;
 import org.springframework.data.solr.core.query.result.HighlightEntry;
 import org.springframework.data.solr.core.query.result.HighlightPage;
-import org.springframework.data.solr.core.query.result.SolrResultPage;
 import org.springframework.stereotype.Service;
 import site.yourdiary.loghandle.entity.solr.LogInfo;
 import site.yourdiary.loghandle.exception.SolrCurdException;
 import site.yourdiary.loghandle.pojo.BootstrapResponseInfo;
 import site.yourdiary.loghandle.pojo.LayuiTableResponseInfo;
 import site.yourdiary.loghandle.respository.solr.SolrLogInfoRepository;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -251,6 +252,10 @@ public class SolrLogInfoQueryService {
         Long tatal = logInfoPage.getTotalElements();
         BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(tatal, logInfoList);
         return bootstrapResponseInfo;
+    }
+
+    public void queryGroup(String timestamp, String pid, String level, String content){
+
     }
 }
 

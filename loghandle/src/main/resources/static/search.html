@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>搜索日志内容</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/font-awesome.min.css" rel="stylesheet">
+	    <link href="css/index.css" rel="stylesheet">
+	    <link href="css/buttons.css" rel="stylesheet">
+	    <link href="css/reset.css" rel="stylesheet">
+	    <link href="css/search.css" rel="stylesheet">
+	    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-fixed-top navbar-self">
+        <div class="container-fluid navbar-container-self">
+            <img src="img/SolrLog2.png" class="navbar-logo pull-left"/>
+            <p>日志检索分析系统</p>
+            <ul class="nav pull-right navbar-spinner-self unstyled">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle unstyled" data-toggle="dropdown">
+                        <img src="img/user.jpg" alt="用户头像" class="img-circle navbar-img">
+                        <span class="caret"></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container container-self">
+            <div class="sidebar">
+                <div class="sidebar-1">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="inactive">
+                            <a href="index.html">
+                                <p>
+                                    <i class="menu-icon icon-dashboard"></i>
+                                    控制面板
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-2">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="inactive">
+                            <a href="statistics.html">
+                                <p>
+                                    <i class="menu-icon icon-bullhorn"></i>
+                                    日志级别分析
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active">
+                            <a href="search.html">
+                                <p>
+                                    <i class="menu-icon icon-inbox"></i>
+                                    日志检索
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-4">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="inactive disabled">
+                            <a href="#">
+                                <p>
+                                    <i class="menu-icon icon-inbox"></i>
+                                    统计信息
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-5">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="inactive">
+                            <a href="http://127.0.0.1:8983" target="_blank">
+                                <p>
+                                    <i class="menu-icon icon-inbox"></i>
+                                    Solr Admin界面
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+				
+            </div>
+        <div class="search">
+        	<h1>搜索日志内容</h1>
+        	<div class="col-lg-6 go">
+			    <div class="input-group">
+			      <input type="text" class="form-control" placeholder="Search for...">
+			      <span class="input-group-btn">
+			        <button class="btn  btn-info" type="button">Go!</button>
+			      </span>
+			    </div>
+			 </div>
+			<div class="choose">
+				<label class="radio-inline">
+					<input type="radio" id="date" name="choose" checked="checked"> 时间
+				</label>
+				<label class="radio-inline">
+					<input type="radio" id="" name="choose"> 进程号
+				</label>
+				<label class="radio-inline">
+					<input type="radio" id="" name="choose"> 级别
+				</label>
+			</div>
+			<div class="detail">
+				<table id="table"></table>
+			</div>
+        </div>
+    </div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/search.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
+	</body>
+</html>
