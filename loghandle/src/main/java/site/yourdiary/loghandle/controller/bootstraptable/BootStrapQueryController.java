@@ -1,5 +1,7 @@
 package site.yourdiary.loghandle.controller.bootstraptable;
 
+import org.apache.solr.client.solrj.SolrClient;
+import org.apache.solr.client.solrj.SolrQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,7 +13,12 @@ import site.yourdiary.loghandle.service.SolrLogInfoQueryService;
 @RequestMapping("/bootstrap")
 public class BootStrapQueryController {
 
+    private SolrClient solrClient;
     private SolrLogInfoQueryService solrLogInfoQueryService;
+    @Autowired
+    public void setSolrClient(SolrClient solrClient) {
+        this.solrClient = solrClient;
+    }
     @Autowired
     public void setSolrLogInfoQueryService(SolrLogInfoQueryService solrLogInfoQueryService) {
         this.solrLogInfoQueryService = solrLogInfoQueryService;
@@ -63,11 +70,17 @@ public class BootStrapQueryController {
     /**
      * 组合查询
      */
-//    @RequestMapping("/queryIndexByGroup")
-//    public BootstrapResponseInfo queryIndexByGroup(@RequestParam(value = "pid", required = false) String pid,
-//                                                   @RequestParam(value = "level", required = false) String level,
-//                                                   @RequestParam(value = "content", required = false) String content){
-//        BootstrapResponseInfo
-//
-//    }
+    @RequestMapping("/queryIndexByGroup")
+    public BootstrapResponseInfo queryIndexByGroup(@RequestParam("offset") int pageNumber,
+                                                   @RequestParam("limit") int pageSize,
+                                                   @RequestParam(value = "pid", required = false) String pid,
+                                                   @RequestParam(value = "level", required = false) String level,
+                                                   @RequestParam(value = "content", required = false) String content,
+                                                   @RequestParam(value = "timestamp", required = false) String timestamp){
+
+        BootstrapResponseInfo bootstrapResponseInfo = solrLogInfoQueryService.queryGroup(pageNumber, pageSize, pid, level, content, timestamp);
+        return bootstrapResponseInfo;
+    }
+
+
 }

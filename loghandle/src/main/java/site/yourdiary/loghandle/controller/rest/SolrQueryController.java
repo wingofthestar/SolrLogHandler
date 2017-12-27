@@ -101,6 +101,16 @@ public class SolrQueryController {
     }
 
     /**
+     *
+     * @return 统计返回日志信息的百分比
+     */
+    @RequestMapping("/queryLevelPercent")
+    public Map<String, String> solrQueryLevelPercent(){
+        Map<String, String> resultMap = solrLogInfoQueryService.queryLevelPercent();
+        return resultMap;
+    }
+
+    /**
      * 查询某一个日志级别的内容(未分页)
      * @param level
      * @return
@@ -127,6 +137,9 @@ public class SolrQueryController {
         Page<LogInfo> logInfoPage = solrLogInfoQueryService.queryByLevelPage(pageNumber, pageSize, level);
         return logInfoPage;
     }
+
+
+
 
 
 }

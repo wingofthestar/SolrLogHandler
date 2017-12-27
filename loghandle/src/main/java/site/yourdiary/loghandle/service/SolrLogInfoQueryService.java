@@ -15,6 +15,7 @@ import org.springframework.data.solr.core.query.Criteria;
 import org.springframework.data.solr.core.query.result.HighlightEntry;
 import org.springframework.data.solr.core.query.result.HighlightPage;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 import site.yourdiary.loghandle.entity.solr.LogInfo;
 import site.yourdiary.loghandle.exception.SolrCurdException;
 import site.yourdiary.loghandle.pojo.BootstrapResponseInfo;
@@ -48,7 +49,7 @@ public class SolrLogInfoQueryService {
     }
 
     private PageRequest buildPageRequest(int pageNumber, int pageSize, Sort sort){
-        return new PageRequest(pageNumber - 1, pageSize, sort);
+        return new PageRequest(pageNumber-1, pageSize, sort);
     }
 
     public LogInfo queryById(String id) throws SolrCurdException {
@@ -247,15 +248,102 @@ public class SolrLogInfoQueryService {
     public BootstrapResponseInfo bootstrapQueryIndexByPid(int pageNumber, int pageSize, String pid) {
         Sort sort = new Sort(Sort.Direction.ASC, "id");
         PageRequest request = this.buildPageRequest(pageNumber, pageSize, sort);
-        Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoByPid(pid, request);
+        Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByPid(pid, request);
         List<LogInfo> logInfoList = logInfoPage.getContent();
-        Long tatal = logInfoPage.getTotalElements();
-        BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(tatal, logInfoList);
+        Long total = logInfoPage.getTotalElements();
+        BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(total, logInfoList);
         return bootstrapResponseInfo;
     }
 
-    public void queryGroup(String timestamp, String pid, String level, String content){
+    /**
+     * 按照BootstrapTable的格式，多种条件组合查询,共16种情况
+     * @param timestamp
+     * @param pid
+     * @param level
+     * @param content
+     */
+    public BootstrapResponseInfo queryGroup(int pageNumber, int pageSize,String timestamp, String pid, String level, String content){
+        Sort sort = new Sort(Sort.Direction.ASC, "id");
+        PageRequest request = this.buildPageRequest(pageNumber, pageSize, sort);
+        if(StringUtils.hasLength(timestamp) && !StringUtils.hasLength(pid) && !StringUtils.hasLength(level) && !StringUtils.hasLength(content)){
+           Page<LogInfo> logInfoPage =  solrLogInfoRepository.findLogInfoByTimestamp(timestamp, request);
+//           List<LogInfo> logInfoList = logInfoPage.getContent();
+//           Long total = logInfoPage.getTotalElements();
+//           BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(total, logInfoList);
+           return queryGroupUtil(logInfoPage);
+        }else if (!StringUtils.hasLength(timestamp) && StringUtils.hasLength(pid) && !StringUtils.hasLength(level) && !StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByPid(pid, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(!StringUtils.hasLength(timestamp) && !StringUtils.hasLength(pid) && StringUtils.hasLength(level) && !StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByLevel(level, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(!StringUtils.hasLength(timestamp) && !StringUtils.hasLength(pid) && !StringUtils.hasLength(level) && StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByContent(content, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(StringUtils.hasLength(timestamp) && StringUtils.hasLength(pid) && !StringUtils.hasLength(level) && !StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByTimestampAndPid(timestamp, pid, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(StringUtils.hasLength(timestamp) && !StringUtils.hasLength(pid) && StringUtils.hasLength(level) && !StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByTimestampAndLevel(timestamp, level, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(StringUtils.hasLength(timestamp) && !StringUtils.hasLength(pid) && !StringUtils.hasLength(level) && StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByTimestampAndContent(timestamp, content, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(!StringUtils.hasLength(timestamp) && StringUtils.hasLength(pid) && StringUtils.hasLength(level) && !StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByPidAndLevel(pid, level, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(!StringUtils.hasLength(timestamp) && StringUtils.hasLength(pid) && !StringUtils.hasLength(level) && StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByPidAndContent(pid, content, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(!StringUtils.hasLength(timestamp) && !StringUtils.hasLength(pid) && StringUtils.hasLength(level) && StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByLevelAndContent(level, content, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(StringUtils.hasLength(timestamp) && StringUtils.hasLength(pid) && StringUtils.hasLength(level) && !StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByTimestampAndPidAndLevel(timestamp, pid, level, request);
+            return queryGroupUtil(logInfoPage);
+        }else if(StringUtils.hasLength(timestamp) && StringUtils.hasLength(pid) && !StringUtils.hasLength(level) && StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByTimestampAndPidAndContent(timestamp, pid, content, request);
+            return queryGroupUtil(logInfoPage);
+        }else if (StringUtils.hasLength(timestamp) && !StringUtils.hasLength(pid) && StringUtils.hasLength(level) && StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByTimestampAndLevelAndContent(timestamp, level, content, request);
+            return queryGroupUtil(logInfoPage);
+        }else if (!StringUtils.hasLength(timestamp) && StringUtils.hasLength(pid) && StringUtils.hasLength(level) && StringUtils.hasLength(content)){
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByPidAndLevelAndContent(pid, level, content, request);
+            return queryGroupUtil(logInfoPage);
+        }else{
+            Page<LogInfo> logInfoPage = solrLogInfoRepository.findLogInfoPageByTimestampAndPidAndLevelAndContent(timestamp, pid, level, content, request);
+            return  queryGroupUtil(logInfoPage);
+        }
 
+    }
+
+    public Map<String,String> queryLevelPercent() {
+        Map<String, String> levelPercent = new HashMap<>();
+        long logNumberCount = solrLogInfoRepository.count();
+        int DLevel = (int) (solrLogInfoRepository.countByLevel("D")*100.0/logNumberCount);
+        int ILevel = (int) (solrLogInfoRepository.countByLevel("I")*100.0/logNumberCount);
+        int TLevel = (int) (solrLogInfoRepository.countByLevel("T")*100.0/logNumberCount);
+        int ELevel = 100-DLevel-ILevel-TLevel;
+
+        String DLevelPercent =  DLevel + "%";
+        String ILevelPercent =  ILevel + "%";
+        String TLevelPercent =  TLevel + "%";
+        String ELevelPercent =  ELevel + "%";
+
+        levelPercent.put("D", DLevelPercent);
+        levelPercent.put("I", ILevelPercent);
+        levelPercent.put("T", TLevelPercent);
+        levelPercent.put("E", ELevelPercent);
+
+        return levelPercent;
+    }
+
+
+    private BootstrapResponseInfo queryGroupUtil(Page<LogInfo> logInfoPage){
+        List<LogInfo> logInfoList = logInfoPage.getContent();
+        Long total = logInfoPage.getTotalElements();
+        BootstrapResponseInfo bootstrapResponseInfo = new BootstrapResponseInfo(total, logInfoList);
+        return bootstrapResponseInfo;
     }
 }
 

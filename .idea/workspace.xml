@@ -2,167 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6162ffb8-a6d9-4e79-8722-7ffa2a16b105" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/img/SolrLog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/img/SolrLog2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/img/user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/config/CorsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/FlushInfoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/Table-text.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/css/statistics.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap-table-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/js/statistics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/refer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/static/statistics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loghandle/src/main/resources/templates/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/layui.mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loghandle/src/main/resources/static/table.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/pom.xml" afterPath="$PROJECT_DIR$/loghandle/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" afterPath="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -197,90 +40,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="FlushInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduleService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-              <folding>
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LayuiSolrQueryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/layui/LayuiSolrQueryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBaseOperatorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/DataBaseOperatorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/GlobalExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrAndDataBaseInitController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlushInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/FlushInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReportService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="96">
+              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;method#errorNumberReport#0;class#ReportService#0" expanded="false" />
                 <element signature="method#errorNumberReport#0;class#ReportService#0" expanded="false" />
                 <element signature="docComment;method#errorListReport#0;class#ReportService#0" expanded="false" />
@@ -298,29 +63,105 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlushInfoRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            <state relative-caret-position="288">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolrQueryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2160">
+              <caret line="108" column="67" lean-forward="false" selection-start-line="108" selection-start-column="67" selection-end-line="108" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootStrapQueryController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="76" column="70" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootstrapResponseInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/BootstrapResponseInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolrJManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrJManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolrlearnApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrlearnApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolrDemoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrDemoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolrLogInfoQueryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2376">
+              <caret line="264" column="36" lean-forward="false" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#queryById#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="docComment;method#queryContentWithColor#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#queryContentWithColor#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#queryContent#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#ContentWithHightLightPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#queryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#queryByLevelPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#queryContentPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#layuiQueryByLevelPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#bootstrapSolrQueryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#bootstrapContentWithHightLightPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+                <element signature="method#queryLevelPercent#0;class#SolrLogInfoQueryService#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootStrapQueryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java">
+      <file leaf-file-name="SolrLogInfoRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#BootstrapSolrQueryByLevel#0;class#BootStrapQueryController#0" expanded="false" />
-                <element signature="docComment;method#queryIndexByContentWithHightPage#0;class#BootStrapQueryController#0" expanded="false" />
-                <element signature="docComment;method#queryIndexByPid#0;class#BootStrapQueryController#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="816">
+              <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -377,7 +218,6 @@
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoIndexService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/ResponseInfo2.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/SolrQueryController.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/layui/LayuiSolrLogInfoQueryService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/layui/LayuiSolrQueryController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/LayuiTableResponseInfo.java" />
@@ -401,10 +241,8 @@
         <option value="$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/other/logHandleTest.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/table.html" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/BootstrapResponseInfo.java" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/solr/LogInfo.java" />
         <option value="$PROJECT_DIR$/loghandle/pom.xml" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/ThyController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushTime.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java" />
@@ -415,13 +253,16 @@
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/FlushInfoController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/js/index.js" />
         <option value="$PROJECT_DIR$/loghandle/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java" />
         <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java" />
+        <option value="$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java" />
       </list>
     </option>
   </component>
@@ -469,7 +310,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -491,6 +332,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -615,8 +458,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
+              <item name="respository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -652,16 +524,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="loghandle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -670,17 +532,125 @@
               <item name="loghandle" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrlearn" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/WorkSpace/any video/any-video" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path" value="D:/soft/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -1003,7 +973,13 @@
       <workItem from="1514100293379" duration="630000" />
       <workItem from="1514102961354" duration="636000" />
       <workItem from="1514124484973" duration="599000" />
-      <workItem from="1514166512137" duration="28252000" />
+      <workItem from="1514166512137" duration="28760000" />
+      <workItem from="1514209901313" duration="573000" />
+      <workItem from="1514253180065" duration="3615000" />
+      <workItem from="1514257545125" duration="5174000" />
+      <workItem from="1514272513291" duration="7989000" />
+      <workItem from="1514287805080" duration="2226000" />
+      <workItem from="1514339697324" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <created>1513738520576</created>
@@ -1055,7 +1031,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160333000" />
+    <option name="totallyTimeSpent" value="180644000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1067,25 +1043,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="952" y="0" width="976" height="1038" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5899772" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71867883" sideWeight="0.50858366" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.218894" sideWeight="0.4914163" order="11" side_tool="false" content_ui="combo" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39645922" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17312072" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13211845" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28359908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.93280184" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3329493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33257404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3138412" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34146342" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1100,6 +1074,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="1052" y="100" width="776" height="838" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1118,122 +1093,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="41" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="logInfoHighlightPage.getTotalElements();" language="JAVA" />
-        <watch expression="logInfoHighlightPage.getNumber();" language="JAVA" />
-        <watch expression="logInfoHighlightPage.getContent();" language="JAVA" />
-        <watch expression="logInfoHighlightPage.getHighlighted();" language="JAVA" />
-        <watch expression="logInfoHighlightEntry.getHighlights().get(0).getSnipplets().get(0)" language="JAVA" />
+        <watch expression="solrLogInfoRepository.countByLevel(&quot;D&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/LoghandleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/LoghandleApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/other/loghandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/test/java/site/yourdiary/loghandle/other/logHandleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoIndexService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/LayuiTableResponseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#766#767#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/BootstrapResponseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.0.11.RELEASE/spring-data-solr-2.0.11.RELEASE.jar!/org/springframework/data/solr/core/query/result/HighlightPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrIndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,7 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,10 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1268,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,31 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-402">
           <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="76" column="7" lean-forward="false" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrJManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="92" column="12" lean-forward="false" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,7 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-642">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1536">
           <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,23 +1169,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/ThyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/ThyController.java" />
     <entry file="file://$PROJECT_DIR$/thymeleaflearn/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,26 +1184,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="176" column="11" lean-forward="false" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
-          <folding>
-            <element signature="e#6844#6845#0" expanded="false" />
-            <element signature="e#6875#6876#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/FlushInfoRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/FlushInfoRestController.java" />
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/DataBaseLogInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,39 +1213,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/FlushInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="139" column="54" lean-forward="false" selection-start-line="139" selection-start-column="54" selection-end-line="139" selection-end-column="54" />
-          <folding>
-            <element signature="method#queryContentWithColor#0;class#SolrLogInfoQueryService#0" expanded="false" />
-            <element signature="method#queryContent#0;class#SolrLogInfoQueryService#0" expanded="false" />
-            <element signature="method#layuiQueryByLevelPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
-            <element signature="docComment;method#bootstrapSolrQueryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
-            <element signature="method#bootstrapSolrQueryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
-            <element signature="docComment;method#bootstrapContentWithHightLightPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
-            <element signature="docComment;method#bootstrapQueryIndexByPid#0;class#SolrLogInfoQueryService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/FlushInfoController.java" />
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/resources/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="260" column="1" lean-forward="false" selection-start-line="260" selection-start-column="1" selection-end-line="260" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,23 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogHandleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,21 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="136" column="61" lean-forward="true" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1485,11 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#buildConfig#0;class#CorsConfig#0" expanded="false" />
-            <element signature="method#corsFilter#0;class#CorsConfig#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1497,23 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#BootstrapSolrQueryByLevel#0;class#BootStrapQueryController#0" expanded="false" />
-            <element signature="docComment;method#queryIndexByContentWithHightPage#0;class#BootStrapQueryController#0" expanded="false" />
-            <element signature="docComment;method#queryIndexByPid#0;class#BootStrapQueryController#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1521,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,54 +1270,289 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrAndDataBaseInitController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
+        <state relative-caret-position="624">
           <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/jpa/FlushInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/FlushInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="0">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/FlushInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/entity/jpa/LogInfoData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/LogHandleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/site.yourdiary:demo:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>site.yourdiary:demo:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">site.yourdiary:demo:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="-2.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/site.yourdiary:loghandle:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>site.yourdiary:loghandle:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">site.yourdiary:loghandle:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot:jar:1.4.7.RELEASE/org.springframework:spring-context:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.springframework:spring-core:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-test:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.assertj:assertj-core:jar:2.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.skyscreamer:jsonassert:jar:1.3.0/org.json:json:jar:20140107</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE/org.springframework:spring-test:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.hibernate:hibernate-validator:jar:5.2.5.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.hibernate:hibernate-validator:jar:5.2.5.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.hibernate:hibernate-validator:jar:5.2.5.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.hibernate:hibernate-validator:jar:5.2.5.Final/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.8/com.fasterxml.jackson.core:jackson-core:jar:2.8.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE/org.springframework:spring-beans:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework:spring-webmvc:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE/org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-expression:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:1.4.7.RELEASE/org.aspectj:aspectjweaver:jar:1.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.7.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.7.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.15/org.apache.tomcat:tomcat-juli:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.7.RELEASE/org.springframework:spring-jdbc:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final/org.jboss:jandex:jar:2.0.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.4.01</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-core:jar:5.0.12.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.hibernate:hibernate-entitymanager:jar:5.0.12.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/javax.transaction:javax.transaction-api:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.data:spring-data-jpa:jar:1.10.11.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.data:spring-data-jpa:jar:1.10.11.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.11.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.data:spring-data-jpa:jar:1.10.11.RELEASE/org.springframework:spring-orm:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework.data:spring-data-jpa:jar:1.10.11.RELEASE/org.springframework:spring-tx:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:1.4.7.RELEASE/org.springframework:spring-aspects:jar:4.3.9.RELEASE</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.42</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.noggit:noggit:jar:0.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.springframework.data:spring-data-solr:jar:2.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.springframework.data:spring-data-solr:jar:2.0.11.RELEASE/org.apache.commons:commons-lang3:jar:3.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-solr:jar:1.4.7.RELEASE/org.apache.httpcomponents:httpmime:jar:4.5.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:3.0.0.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:3.0.0.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.0.RELEASE/org.attoparser:attoparser:jar:2.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:3.0.0.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.0.RELEASE/org.unbescape:unbescape:jar:1.1.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE/nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:jar:2.0.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE/nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:jar:2.0.0/org.codehaus.groovy:groovy:jar:2.4.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.4.7.RELEASE/nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:jar:2.0.0/nz.net.ultraq.thymeleaf:thymeleaf-expression-processor:jar:1.1.0</node>
+            <node x="" y="">com.google.code.gson:gson:jar:2.8.0</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6673656618610746" x="1117.0" y="2473.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/site.yourdiary.loghandle.entity.jpa.LogInfoData">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>site.yourdiary.loghandle.entity.jpa.LogInfoData</OriginalElement>
+          <nodes>
+            <node x="121.0" y="0.0">javax.persistence.Entity</node>
+            <node x="0.0" y="0.0">javax.persistence.Table</node>
+            <node x="36.25" y="85.0">site.yourdiary.loghandle.entity.jpa.LogInfoData</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="site.yourdiary.loghandle.entity.jpa.LogInfoData" target="javax.persistence.Table">
+              <point x="-37.5" y="-17.5" />
+              <point x="73.75" y="60.0" />
+              <point x="50.5" y="60.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="site.yourdiary.loghandle.entity.jpa.LogInfoData" target="javax.persistence.Entity">
+              <point x="37.5" y="-17.5" />
+              <point x="148.75" y="60.0" />
+              <point x="172.0" y="60.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="-103.0" />
+          <SelectedNodes>
+            <node>site.yourdiary.loghandle.entity.jpa.LogInfoData</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoIndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SPRING/mappedClass=site.yourdiary.loghandle.service.ReportService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=site.yourdiary.loghandle.service.ReportService</OriginalElement>
+          <nodes>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.LoghandleApplication;bean_name=loghandleApplication</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.config.ApplicationConfig;bean_name=applicationConfig</node>
+            <node x="" y="">module=loghandle;bean_class=org.springframework.data.solr.core.SolrOperations;bean_name=solrTemplate</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.config.CorsConfig;bean_name=corsConfig</node>
+            <node x="" y="">module=loghandle;bean_class=org.springframework.web.filter.CorsFilter;bean_name=corsFilter</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.LogHandleService;bean_name=logHandleService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.ScheduleService;bean_name=scheduleService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.InitSolrAndDataBaseService;bean_name=initSolrAndDataBaseService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.FlushInfoService;bean_name=flushInfoService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.thy.IndexController;bean_name=indexController</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.ReportService;bean_name=reportService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.rest.SolrQueryController;bean_name=solrQueryController</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.SolrLogInfoQueryService;bean_name=solrLogInfoQueryService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.rest.SolrIndexController;bean_name=solrIndexController</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.SolrLogInfoIndexService;bean_name=solrLogInfoIndexService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.rest.SolrAndDataBaseInitController;bean_name=solrAndDataBaseInitController</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.layui.LayuiSolrQueryController;bean_name=layuiSolrQueryController</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.rest.DataBaseOperatorController;bean_name=dataBaseOperatorController</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.service.DataBaseLogInfoService;bean_name=dataBaseLogInfoService</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.bootstraptable.BootStrapQueryController;bean_name=bootStrapQueryController</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.respository.solr.SolrLogInfoRepository;bean_name=solrLogInfoRepository</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.respository.jpa.DataBaseLogInfoRepository;bean_name=dataBaseLogInfoRepository</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.respository.jpa.FlushInfoRepository;bean_name=flushInfoRepository</node>
+            <node x="" y="">module=loghandle;bean_class=site.yourdiary.loghandle.controller.rest.GlobalExceptionHandler;bean_name=globalExceptionHandler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.206766917293233" x="1770.0" y="76.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Local context</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ReportService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="96">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;method#errorNumberReport#0;class#ReportService#0" expanded="false" />
             <element signature="method#errorNumberReport#0;class#ReportService#0" expanded="false" />
             <element signature="docComment;method#errorListReport#0;class#ReportService#0" expanded="false" />
@@ -1601,14 +1569,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/ScheduleService.java">
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/thy/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="288">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrlearnApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/rest/SolrQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="108" column="67" lean-forward="false" selection-start-line="108" selection-start-column="67" selection-end-line="108" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrlearn/src/test/java/site/yourdiary/solrlearn/SolrJManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/pojo/BootstrapResponseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/respository/solr/SolrLogInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/service/SolrLogInfoQueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="264" column="36" lean-forward="false" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
           <folding>
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="method#queryById#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="docComment;method#queryContentWithColor#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#queryContentWithColor#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#queryContent#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#ContentWithHightLightPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#queryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#queryByLevelPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#queryContentPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#layuiQueryByLevelPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#bootstrapSolrQueryByLevel#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#bootstrapContentWithHightLightPage#0;class#SolrLogInfoQueryService#0" expanded="false" />
+            <element signature="method#queryLevelPercent#0;class#SolrLogInfoQueryService#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loghandle/src/main/java/site/yourdiary/loghandle/controller/bootstraptable/BootStrapQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="76" column="70" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1628,5 +1670,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
