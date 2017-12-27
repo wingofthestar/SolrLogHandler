@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<meta charset="UTF-8">
-		<title>搜索日志内容</title>
+		<title>日志检索分析系统</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	    <link href="css/font-awesome.min.css" rel="stylesheet">
 	    <link href="css/index.css" rel="stylesheet">
+	    <!--<link href="css/buttons.css" rel="stylesheet">-->
 	    <link href="css/reset.css" rel="stylesheet">
-	    <link href="css/search.css" rel="stylesheet">
+	    <link href="css/statistics.css" rel="stylesheet">
 	    <link rel="stylesheet" href="css/bootstrap-table.css">
         <link href="img/favicon.ico" rel="shortcut icon">
 
@@ -35,7 +36,7 @@
                 <div class="sidebar-1">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="index.html">
+                            <a href="/index">
                                 <p>
                                     <i class="fa fa-tasks fa-lg fa-fw"></i>
                                     控制面板
@@ -47,8 +48,8 @@
 
                 <div class="sidebar-2">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="inactive">
-                            <a href="statistics.html">
+                        <li class="active">
+                            <a href="/level">
                                 <p>
                                     <i class="fa fa-bar-chart-o fa-lg fa-fw"></i>
                                     日志级别分析
@@ -60,8 +61,8 @@
 
                 <div class="sidebar-3">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="active">
-                            <a href="search.html">
+                        <li class="inactive">
+                            <a href="/search">
                                 <p>
                                     <i class="fa fa-search-minus fa-lg fa-fw"></i>
                                     日志检索
@@ -77,7 +78,7 @@
                             <a href="#">
                                 <p>
                                     <i class=""></i>
-                                    统计信息
+                                    开发中
                                 </p>
                             </a>
                         </li>
@@ -89,7 +90,7 @@
                         <li class="inactive">
                             <a href="http://127.0.0.1:8983" target="_blank">
                                 <p>
-                                    <i class="menu-icon icon-inbox"></i>
+                                    <i class=""></i>
                                     Solr Admin界面
                                 </p>
                             </a>
@@ -98,29 +99,50 @@
                 </div>
 				
             </div>
-        <div class="search">
-        	<h1>搜索日志内容</h1>
-        	<div class="col-lg-6 go">
-			    <div class="input-group">
-			      <input id="se" type="text" class="form-control" placeholder="Search for...">
-			      <span class="input-group-btn">
-			        <button id="go" class="btn  btn-info" type="button">Go!</button>
-			      </span>
-			    </div>
-			 </div>
-			<div class="choose">
-				<label class="radio-inline">
-					<input type="radio" id="content" name="choose" checked="checked"> 日志内容
-				</label>
-				<label class="radio-inline">
-					<input type="radio" id="pid" name="choose"> 进程号
-				</label>
-				<label class="radio-inline">
-					<input type="radio" id="level" name="choose"> 级别
-				</label>
-			</div>
-			
-			<div class="detail">
+        <div class="statistics">
+        	<h1>4种日志级别统计</h1>
+        	<div class="window">
+        		<a href="#" id="info">
+	        		<p>Info</p>
+	        		<div class="progress">
+					  <div id="i" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+					    
+					  </div>
+					</div>
+				</a>
+        	</div>
+        	<div class="mac">
+        		<a href="#" id="trace">
+	        		<p>Ttace</p>
+	        		<div class="progress">
+					  <div id="t" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+					   
+					  </div>
+					</div>
+				</a>
+        	</div>
+        	<div class="linux">
+        		<a href="#" id="error">
+	        		<p>Error</p>
+	        		<div class="progress">
+					  <div id="e" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					    
+					  </div>
+					</div>
+				</a>
+        	</div>
+        	<div class="iphone">
+        		<a href="#"id="debug">
+	        		<p>Debug</p>
+	        		<div class="progress">
+					  <div id="d" class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+					    
+					  </div>
+					</div>
+				</a>
+        	</div>
+        	
+        	<div class="detail">
 				<table id="table">
 					<thead style="font-family: '微软雅黑'; font-size: 18px;">
 						<th data-field="id">UUID</th>
@@ -133,11 +155,16 @@
 			</div>
 			
         </div>
+        
     </div>
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/statistics.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/bootstrap-table.js"></script>
 		<script type="text/javascript" src="js/bootstrap-table-zh-CN.js"></script>
+		<script type="text/javascript" src="js/error.js"></script>
+		<script type="text/javascript" src="js/debug.js"></script>
+		<script type="text/javascript" src="js/info.js"></script>
+		<script type="text/javascript" src="js/trace.js"></script>
 	</body>
 </html>

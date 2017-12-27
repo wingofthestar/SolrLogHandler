@@ -16,7 +16,7 @@ public class IndexController {
     }
 
     @RequestMapping("/")
-    public String homepage(Model model) {
+    public String defaultHomepage(Model model) {
         if (reportService.errorNumberReport() > 0) {
             model.addAttribute("message", "系统出现异常");
             model.addAttribute("style", "color:red");
@@ -33,5 +33,20 @@ public class IndexController {
         model.addAttribute("time", dateStr[0]);
         model.addAttribute("date", dateStr[1]);
         return "index";
+    }
+
+    @RequestMapping("/level")
+    public String logLevelStatics(){
+        return "statistics";
+    }
+
+    @RequestMapping("/search")
+    public String logSearch(){
+        return "search";
+    }
+
+    @RequestMapping("/index")
+    public String homepage(){
+        return "forward:/";
     }
 }

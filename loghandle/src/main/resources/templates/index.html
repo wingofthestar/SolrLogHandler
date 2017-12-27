@@ -2,13 +2,15 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap 101 Template</title>
+    <title>日志检索分析系统</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
+    <link href="img/favicon.ico" rel="shortcut icon">
+
 </head>
 <body>
 	
@@ -34,9 +36,9 @@
                 <div class="sidebar-1">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active">
-                            <a href="index.html">
+                            <a href="/index">
                                 <p>
-                                    <i class="menu-icon icon-dashboard"></i>
+                                    <i class="fa fa-tasks fa-lg fa-fw"></i>
                                     控制面板
                                 </p>
                             </a>
@@ -47,9 +49,9 @@
                 <div class="sidebar-2">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="statistics.html">
+                            <a href="/level">
                                 <p>
-                                    <i class="menu-icon icon-bullhorn"></i>
+                                    <i class="fa fa-bar-chart-o fa-lg fa-fw"></i>
                                     日志级别分析
                                 </p>
                             </a>
@@ -60,9 +62,9 @@
                 <div class="sidebar-3">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="search.html">
+                            <a href="/search">
                                 <p>
-                                    <i class="menu-icon icon-inbox"></i>
+                                    <i class="fa fa-search-minus fa-lg fa-fw"></i>
                                     日志检索
                                 </p>
                             </a>
@@ -75,8 +77,8 @@
                         <li class="inactive disabled">
                             <a href="#">
                                 <p>
-                                    <i class="menu-icon icon-inbox"></i>
-                                    统计信息
+                                    <i class=""></i>
+                                    开发中
                                 </p>
                             </a>
                         </li>

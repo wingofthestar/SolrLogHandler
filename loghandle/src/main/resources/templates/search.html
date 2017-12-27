@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<meta charset="UTF-8">
-		<title>搜索日志内容</title>
+		<title>日志检索分析系统</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	    <link href="css/font-awesome.min.css" rel="stylesheet">
 	    <link href="css/index.css" rel="stylesheet">
@@ -35,7 +35,7 @@
                 <div class="sidebar-1">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="index.html">
+                            <a href="/index">
                                 <p>
                                     <i class="fa fa-tasks fa-lg fa-fw"></i>
                                     控制面板
@@ -48,7 +48,7 @@
                 <div class="sidebar-2">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="statistics.html">
+                            <a href="/level">
                                 <p>
                                     <i class="fa fa-bar-chart-o fa-lg fa-fw"></i>
                                     日志级别分析
@@ -61,7 +61,7 @@
                 <div class="sidebar-3">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active">
-                            <a href="search.html">
+                            <a href="/search">
                                 <p>
                                     <i class="fa fa-search-minus fa-lg fa-fw"></i>
                                     日志检索
@@ -77,7 +77,7 @@
                             <a href="#">
                                 <p>
                                     <i class=""></i>
-                                    统计信息
+                                    开发中
                                 </p>
                             </a>
                         </li>
@@ -89,7 +89,7 @@
                         <li class="inactive">
                             <a href="http://127.0.0.1:8983" target="_blank">
                                 <p>
-                                    <i class="menu-icon icon-inbox"></i>
+                                    <i class=""></i>
                                     Solr Admin界面
                                 </p>
                             </a>

@@ -1,10 +1,12 @@
 .search{
 	position: absolute;
-	height: 600px;
+	height: 610px;
 	width: 900px;
 	top: 100px;
+	background: #D5D5D5;
+	opacity: 0.5;
 	margin-left: 200px;
-	border: 2px solid #24292E;
+	border: 0px solid #24292E;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	border-bottom-left-radius: 8px;
@@ -28,15 +30,20 @@
 }
 .choose label{
 	padding-left: 110px;
-	color: #BBBBBB;
+	font-family: "微软雅黑";
 }
 .detail{
 	position: absolute;
 	margin-left: 30px;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 830px;
-	height: 430px;
-	border: 1px solid #000000;
+	height: 445px;
+	display: none;
+	border: 2px solid #000000;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 input[type='text']{
 	height: 50px;
