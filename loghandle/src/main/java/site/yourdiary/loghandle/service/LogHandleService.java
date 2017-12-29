@@ -37,9 +37,6 @@ public class LogHandleService {
                    Pattern r = Pattern.compile(regex);
                    Matcher m = r.matcher(line);
                    if (m.matches()){
-
-
-
                        LogInfoData logInfo = new LogInfoData();
                        logInfo.setTimestamp(m.group(1));
                        logInfo.setPid(m.group(2));

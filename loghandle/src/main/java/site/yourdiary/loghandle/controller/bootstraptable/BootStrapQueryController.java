@@ -69,6 +69,13 @@ public class BootStrapQueryController {
 
     /**
      * 组合查询
+     * @param pageNumber
+     * @param pageSize
+     * @param pid
+     * @param level
+     * @param content
+     * @param timestamp
+     * @return
      */
     @RequestMapping("/queryIndexByGroup")
     public BootstrapResponseInfo queryIndexByGroup(@RequestParam("offset") int pageNumber,
@@ -78,7 +85,7 @@ public class BootStrapQueryController {
                                                    @RequestParam(value = "content", required = false) String content,
                                                    @RequestParam(value = "timestamp", required = false) String timestamp){
 
-        BootstrapResponseInfo bootstrapResponseInfo = solrLogInfoQueryService.queryGroup(pageNumber, pageSize, pid, level, content, timestamp);
+        BootstrapResponseInfo bootstrapResponseInfo = solrLogInfoQueryService.queryGroup(pageNumber, pageSize, timestamp, pid, level, content);
         return bootstrapResponseInfo;
     }
 
