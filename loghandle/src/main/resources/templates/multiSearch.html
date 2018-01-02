@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-	<head>
-		<meta charset="UTF-8">
-		<title>日志检索分析系统</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-	    <link href="css/font-awesome.min.css" rel="stylesheet">
-	    <link href="css/index.css" rel="stylesheet">
-	    <!--<link href="css/buttons.css" rel="stylesheet">-->
-	    <link href="css/reset.css" rel="stylesheet">
-	    <link href="css/statistics.css" rel="stylesheet">
-	    <link rel="stylesheet" href="css/bootstrap-table.css">
-        <link href="img/favicon.ico" rel="shortcut icon">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>日志检索分析系统</title>
 
-    </head>
-	<body>
-		<nav class="navbar navbar-fixed-top navbar-self">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/m-query.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-table.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link href="img/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+	
+	<nav class="navbar navbar-fixed-top navbar-self">
         <div class="container-fluid navbar-container-self">
             <img src="img/SolrLog2.png" class="navbar-logo pull-left"/>
             <p>日志检索分析系统</p>
@@ -37,7 +42,7 @@
                 <div class="sidebar-1">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="/index">
+                            <a href="index.html">
                                 <p>
                                     <i class="fa fa-tasks fa-lg fa-fw"></i>
                                     控制面板
@@ -49,8 +54,8 @@
 
                 <div class="sidebar-2">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="active">
-                            <a href="/level">
+                        <li class="inactive">
+                            <a href="statistics.html">
                                 <p>
                                     <i class="fa fa-bar-chart-o fa-lg fa-fw"></i>
                                     日志级别分析
@@ -63,7 +68,7 @@
                 <div class="sidebar-3">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="/search">
+                            <a href="search.html">
                                 <p>
                                     <i class="fa fa-search-minus fa-lg fa-fw"></i>
                                     日志检索
@@ -75,7 +80,7 @@
 
                 <div class="sidebar-4">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="inactive">
+                        <li class="active">
                             <a href="/multiSearch">
                                 <p>
                                     <i class="fa fa-search fa-lg fa-fw"></i>
@@ -91,7 +96,7 @@
                         <li class="inactive">
                             <a href="http://127.0.0.1:8983" target="_blank">
                                 <p>
-                                    <i class=""></i>
+                                    <i class="menu-icon icon-inbox"></i>
                                     Solr Admin界面
                                 </p>
                             </a>
@@ -100,50 +105,39 @@
                 </div>
 				
             </div>
-        <div class="statistics">
-        	<h1>4种日志级别统计</h1>
-        	<div class="window">
-        		<a href="#" id="info">
-	        		<p>Info</p>
-	        		<div class="progress">
-					  <div id="i" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-					    
-					  </div>
-					</div>
-				</a>
-        	</div>
-        	<div class="mac">
-        		<a href="#" id="trace">
-	        		<p>Ttace</p>
-	        		<div class="progress">
-					  <div id="t" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-					   
-					  </div>
-					</div>
-				</a>
-        	</div>
-        	<div class="linux">
-        		<a href="#" id="error">
-	        		<p>Error</p>
-	        		<div class="progress">
-					  <div id="e" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-					    
-					  </div>
-					</div>
-				</a>
-        	</div>
-        	<div class="iphone">
-        		<a href="#"id="debug">
-	        		<p>Debug</p>
-	        		<div class="progress">
-					  <div id="d" class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-					    
-					  </div>
-					</div>
-				</a>
-        	</div>
-        	
-        	<div class="detail">
+            <div class="choose">	
+            	<h1>多条件组合查询</h1>
+				<div class="ss">
+					<span class="input input--akira">
+						<input class="input__field input__field--akira" type="text" id="timestamp" />
+						<label class="input__label input__label--akira" for="timestamp">
+							<span class="input__label-content input__label-content--akira">时间</span>
+						</label>
+					</span>
+					<span class="input input--akira">
+						<input class="input__field input__field--akira" type="text" id="pid" />
+						<label class="input__label input__label--akira" for="pid">
+							<span class="input__label-content input__label-content--akira">进程号</span>
+						</label>
+					</span>
+				</div>
+				<div class="aa">
+					<span class="input input--akira">
+						<input class="input__field input__field--akira" type="text" id="content" />
+						<label class="input__label input__label--akira" for="content">
+							<span class="input__label-content input__label-content--akira">内容</span>
+						</label>
+					</span>
+					<span class="input input--akira">
+						<input class="input__field input__field--akira" type="text" id="level" />
+						<label class="input__label input__label--akira" for="level">
+							<span class="input__label-content input__label-content--akira">级别</span>
+						</label>
+					</span>
+				</div>	
+				<button id="go" class="btn btn-info">查找</button>
+				
+            	<div class="detail">
 				<table id="table">
 					<thead style="font-family: '微软雅黑'; font-size: 18px;">
 						<th data-field="id">UUID</th>
@@ -155,17 +149,19 @@
 				</table>
 			</div>
 			
-        </div>
-        
-    </div>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/statistics.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/bootstrap-table.js"></script>
-		<script type="text/javascript" src="js/bootstrap-table-zh-CN.js"></script>
-		<script type="text/javascript" src="js/error.js"></script>
-		<script type="text/javascript" src="js/debug.js"></script>
-		<script type="text/javascript" src="js/info.js"></script>
-		<script type="text/javascript" src="js/trace.js"></script>
-	</body>
+    		</div>	
+    	</div>
+    	
+	
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/m-query.js"></script>
+    <script type="text/javascript" src="js/bootstrap-table.js"></script>
+	<script type="text/javascript" src="js/bootstrap-table-zh-CN.js"></script>
+</body>
 </html>

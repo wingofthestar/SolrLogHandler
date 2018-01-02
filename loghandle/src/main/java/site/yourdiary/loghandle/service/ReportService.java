@@ -100,10 +100,10 @@ public class ReportService {
      *
      * @return 日志文件数
      */
-    public int logFileNumber(){
+    public long logFileNumber(){
         File file = new File("C:\\solrlog");
         File[] fileList = file.listFiles();
-        int logFileNumber = fileList.length;
+        long logFileNumber = fileList.length;
         return logFileNumber;
     }
 

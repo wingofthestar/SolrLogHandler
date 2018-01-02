@@ -23,7 +23,8 @@
                         <img src="img/user.jpg" alt="用户头像" class="img-circle navbar-img">
                         <span class="caret"></span>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Logout</a></li>
+                            <li><a href="#" th:text="${session.userName}">用户名</a></li>
+                            <li><a href="/logout">Logout</a></li>
                         </ul>
                     </a>
                 </li>
@@ -73,11 +74,11 @@
 
                 <div class="sidebar-4">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="inactive disabled">
-                            <a href="#">
+                        <li class="inactive">
+                            <a href="/multiSearch">
                                 <p>
-                                    <i class=""></i>
-                                    开发中
+                                    <i class="fa fa-search fa-lg fa-fw"></i>
+                                    组合查询
                                 </p>
                             </a>
                         </li>

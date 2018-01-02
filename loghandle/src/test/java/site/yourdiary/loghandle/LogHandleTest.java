@@ -8,18 +8,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 import site.yourdiary.loghandle.entity.jpa.LogInfoData;
 import site.yourdiary.loghandle.respository.jpa.DataBaseLogInfoRepository;
 
-import javax.persistence.Table;
-import javax.xml.ws.soap.Addressing;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class LoghandleApplicationTests {
+public class LogHandleTest {
 
-	@Autowired
-	private DataBaseLogInfoRepository dataBaseLogInfoRepository;
+    @Autowired
+    private DataBaseLogInfoRepository dataBaseLogInfoRepository;
 
-	@Test
-	public void contextLoads() {
-	}
-
+    @Test
+    public void test_getTimeFromRepository(){
+        LogInfoData logInfoData = dataBaseLogInfoRepository.findById("8aea268060b4cceb0160b4cf341f0000");
+        System.out.println(logInfoData);
+    }
 }

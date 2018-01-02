@@ -4,19 +4,23 @@ package site.yourdiary.loghandle.entity.jpa;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
-@Table(name = "loginfo")
+@Table(name = "log_info")
 public class LogInfoData {
 
     @Id
     @GeneratedValue(generator = "uuidGenerator")
     @GenericGenerator(name = "uuidGenerator", strategy = "uuid")
-    @Column(name = "uuid")
+    @Column(name = "uuid", columnDefinition = "char(32)")
     private String id;
-    private String timestamp;
+    @Temporal(TemporalType.TIMESTAMP)
+    @Column(columnDefinition = "datetime(3)")
+    private Date timestamp;
     private String pid;
     private String level;
+    @Column(columnDefinition = "text")
     private String content;
 
     public String getId() {
@@ -27,11 +31,11 @@ public class LogInfoData {
         this.id = id;
     }
 
-    public String getTimestamp() {
+    public Date getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(String timestamp) {
+    public void setTimestamp(Date timestamp) {
         this.timestamp = timestamp;
     }
 
@@ -63,7 +67,7 @@ public class LogInfoData {
     public String toString() {
         return "LogInfoData{" +
                 "id='" + id + '\'' +
-                ", timestamp='" + timestamp + '\'' +
+                ", timestamp=" + timestamp +
                 ", pid='" + pid + '\'' +
                 ", level='" + level + '\'' +
                 ", content='" + content + '\'' +

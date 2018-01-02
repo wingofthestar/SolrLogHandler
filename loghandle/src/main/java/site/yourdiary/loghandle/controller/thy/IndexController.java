@@ -6,6 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import site.yourdiary.loghandle.service.ReportService;
 
+import javax.servlet.http.HttpServletRequest;
+
 @Controller
 public class IndexController {
     private ReportService reportService;
@@ -16,7 +18,10 @@ public class IndexController {
     }
 
     @RequestMapping("/")
-    public String defaultHomepage(Model model) {
+    public String defaultHomepage(Model model, HttpServletRequest request) {
+        if (request.getSession().getAttribute("userId") == null){
+            return "forward:/login";
+        }
         if (reportService.errorNumberReport() > 0) {
             model.addAttribute("message", "系统出现异常");
             model.addAttribute("style", "color:red");
@@ -36,17 +41,35 @@ public class IndexController {
     }
 
     @RequestMapping("/level")
-    public String logLevelStatics(){
+    public String logLevelStatics(HttpServletRequest request){
+        if (request.getSession().getAttribute("userId") == null){
+            return "forward:/login";
+        }
         return "statistics";
     }
 
     @RequestMapping("/search")
-    public String logSearch(){
+    public String logSearch(HttpServletRequest request){
+        if (request.getSession().getAttribute("userId") == null){
+            return "forward:/login";
+        }
         return "search";
     }
 
     @RequestMapping("/index")
-    public String homepage(){
+    public String homepage(HttpServletRequest request){
+        if (request.getSession().getAttribute("userId") == null){
+            return "forward:/login";
+        }
         return "forward:/";
     }
+
+    @RequestMapping("/multiSearch")
+    public String logMultiSearch(HttpServletRequest request){
+        if (request.getSession().getAttribute("userId") == null){
+            return "forward:/login";
+        }
+        return "multiSearch";
+    }
+
 }

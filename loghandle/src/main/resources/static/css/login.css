@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: url(../img/bg3.jpg) no-repeat;
+    background-size: cover;
+}
+
+.head {
+    height: 50px;
+    background: #000;
+}
+
+.home {
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.header {
+    height: 10px;
+    background: #000;
+}
+
+input[type="text"] {
+    display: block;
+    font-family: Verdana, Arial;
+    height: 35px;
+    width: 250px;
+    margin: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+input[type="password"] {
+    display: block;
+    font-family: Verdana, Arial;
+    height: 35px;
+    width: 250px;
+    margin: 15px;
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.login {
+    opacity: 0.7;
+    background: #111;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 25%;
+    right: 5%;
+}
+
+.maintitle {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 30%;
+    left: 25%;
+}
+
+.picture {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: -50%;
+}
+
+.maintitle h1 {
+    font-family: 宋体;
+    margin-top: 60px;
+    font-size: 36px;
+    color: #111;
+}
+
+.login h3 {
+
+    margin: 20px;
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+
+.sub {
+    height: 35px;
+    width: 150px;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.bottom {
+    margin-top: 550px;
+}

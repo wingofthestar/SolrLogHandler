@@ -18,12 +18,17 @@ public class FlushInfoService {
     public void saveFlushInfo(Date date){
         FlushInfo flushInfo = new FlushInfo();
         flushInfo.setFlushId("1");
-        flushInfo.setTimestamp(date);
+        flushInfo.setFlushDate(date);
         flushInfoRepository.save(flushInfo);
     }
 
     public Date gainFlushInfoTime(){
-       FlushInfo flushInfo =  flushInfoRepository.getOne("1");
-       return flushInfo.getTimestamp();
+        if (flushInfoRepository.exists("1")){
+            FlushInfo flushInfo =  flushInfoRepository.getOne("1");
+            return flushInfo.getFlushDate();
+        }else {
+            return new Date();
+        }
+
     }
 }
