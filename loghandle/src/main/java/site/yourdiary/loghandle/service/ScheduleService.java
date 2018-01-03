@@ -53,6 +53,7 @@ public class ScheduleService {
     public void historyLogSaveScheduler(){
         try {
             logger.info("开始执行schedule操作{}" + dateFormat.format(new Date()));
+            historyLogReportSaveService.saveHistoryLogReport();
         }catch (Exception e){
             logger.error("定时存储历史日志报告信息失败{}", dateFormat.format(new Date()));
         }

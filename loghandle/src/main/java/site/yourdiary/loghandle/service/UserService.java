@@ -9,6 +9,8 @@ import site.yourdiary.loghandle.entity.jpa.User;
 import site.yourdiary.loghandle.pojo.ResponseInfo;
 import site.yourdiary.loghandle.respository.jpa.UserRepository;
 
+import java.util.Date;
+
 @Service
 public class UserService {
 
@@ -46,5 +48,12 @@ public class UserService {
     public User findUser(String userName, String password){
         User user = userRepository.findUserByUserNameAndPassword(userName, password);
         return user;
+    }
+
+    public void loginLog(String userId, String addr){
+        User user = userRepository.findUserByUserId(userId);
+        user.setLastIp(addr);
+        user.setLastVisit(new Date());
+        userRepository.save(user);
     }
 }

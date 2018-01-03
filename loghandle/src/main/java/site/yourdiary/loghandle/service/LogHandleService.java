@@ -16,8 +16,10 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * 读入日志文件，从日志文件中提取出相关信息，并对提取出来的信息做简单的预处理
+ */
 @Component
-//@Service
 public class LogHandleService {
 
     private static final Logger logger = LoggerFactory.getLogger(LogHandleService.class);
@@ -30,7 +32,6 @@ public class LogHandleService {
         File file = new File("C:\\solrlog");
         File[] fileList = file.listFiles();
         SimpleDateFormat sdfTime = new SimpleDateFormat("HH:mm:ss.SSS");
-        SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd");
 
         if(fileList != null){
             for (File logFile : fileList) {
@@ -45,6 +46,7 @@ public class LogHandleService {
                         Matcher m = r.matcher(line);
                         if (m.matches()){
                             LogInfoData logInfo = new LogInfoData();
+                            /*日志的日期格式缺少年月日，因此需要对日期格式做预处理*/
                             Date dateTime = sdfTime.parse(m.group(1));
                             Calendar calendar = Calendar.getInstance();
                             int year = calendar.get(Calendar.YEAR);
@@ -54,6 +56,7 @@ public class LogHandleService {
                             calendar.set(Calendar.YEAR, year);
                             calendar.set(Calendar.MONTH, month);
                             calendar.set(Calendar.DATE, day);
+
                             Date logDate = calendar.getTime();
                             logInfo.setTimestamp(logDate);
                             logInfo.setPid(m.group(2));

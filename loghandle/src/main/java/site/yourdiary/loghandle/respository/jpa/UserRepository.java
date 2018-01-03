@@ -5,4 +5,5 @@ import site.yourdiary.loghandle.entity.jpa.User;
 
 public interface UserRepository extends JpaRepository<User, String> {
     User findUserByUserNameAndPassword(String userName, String password);
+    User findUserByUserId(String userId);
 }

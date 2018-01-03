@@ -37,6 +37,8 @@ public class UserController {
        Boolean b =  userService.checkUser(userName, password);
        if (b){
            User user = userService.findUser(userName, password);
+           //记录用户的登录信息
+           userService.loginLog(user.getUserId(), request.getRemoteAddr());
            request.getSession().setAttribute("userId", user.getUserId());
            request.getSession().setAttribute("userName", user.getUserName());
            return "redirect:/";

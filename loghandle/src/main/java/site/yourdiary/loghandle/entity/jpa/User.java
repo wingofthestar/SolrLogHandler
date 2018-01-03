@@ -3,6 +3,7 @@ package site.yourdiary.loghandle.entity.jpa;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name = "user")
@@ -18,7 +19,8 @@ public class User {
 
     private String userEmail;
 
-    private String lastVisit;
+    @Temporal(TemporalType.DATE)
+    private Date lastVisit;
 
     private String password;
 
@@ -57,11 +59,11 @@ public class User {
         this.userEmail = userEmail;
     }
 
-    public String getLastVisit() {
+    public Date getLastVisit() {
         return lastVisit;
     }
 
-    public void setLastVisit(String lastVisit) {
+    public void setLastVisit(Date lastVisit) {
         this.lastVisit = lastVisit;
     }
 
