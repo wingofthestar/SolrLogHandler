@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<meta charset="UTF-8">
-		<title>4种日志级别统计</title>
+		<title>日志检索分析系统</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	    <link href="css/font-awesome.min.css" rel="stylesheet">
 	    <link href="css/index.css" rel="stylesheet">
@@ -24,7 +24,8 @@
                         <img src="img/user.jpg" alt="用户头像" class="img-circle navbar-img">
                         <span class="caret"></span>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Logout</a></li>
+                            <li><a href="#" th:text="${session.userName}">用户名</a></li>
+                            <li><a href="/logout">Logout</a></li>
                         </ul>
                     </a>
                 </li>
@@ -36,7 +37,7 @@
                 <div class="sidebar-1">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="index.html">
+                            <a href="/index">
                                 <p>
                                     <i class="fa fa-tasks fa-lg fa-fw"></i>
                                     控制面板
@@ -49,7 +50,7 @@
                 <div class="sidebar-2">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active">
-                            <a href="statistics.html">
+                            <a href="/level">
                                 <p>
                                     <i class="fa fa-bar-chart-o fa-lg fa-fw"></i>
                                     日志级别分析
@@ -62,7 +63,7 @@
                 <div class="sidebar-3">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="search.html">
+                            <a href="/search">
                                 <p>
                                     <i class="fa fa-search-minus fa-lg fa-fw"></i>
                                     日志检索
@@ -75,7 +76,7 @@
                 <div class="sidebar-4">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
-                            <a href="mutiSearch.html">
+                            <a href="/multiSearch">
                                 <p>
                                     <i class="fa fa-search fa-lg fa-fw"></i>
                                     组合查询
@@ -90,7 +91,20 @@
                         <li class="inactive">
                             <a href="http://127.0.0.1:8983" target="_blank">
                                 <p>
-                                    <i class=""></i>
+                                    <i class=" fa fa-lg fa-fw fa-line-chart"></i>
+                                    历史日志统计
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-6">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="inactive">
+                            <a href="http://127.0.0.1:8983" target="_blank">
+                                <p>
+                                    <i class="menu-icon icon-inbox"></i>
                                     Solr Admin界面
                                 </p>
                             </a>

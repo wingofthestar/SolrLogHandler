@@ -3,18 +3,29 @@ package site.yourdiary.loghandle.controller.thy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import site.yourdiary.loghandle.entity.jpa.HistoryError;
+import site.yourdiary.loghandle.entity.jpa.HistoryLogReport;
+import site.yourdiary.loghandle.service.HistoryAnalyzeService;
 import site.yourdiary.loghandle.service.ReportService;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 public class IndexController {
     private ReportService reportService;
-
+    private HistoryAnalyzeService historyAnalyzeService;
     @Autowired
     public void setReportService(ReportService reportService) {
         this.reportService = reportService;
+    }
+    @Autowired
+    public void setHistoryAnalyzeService(HistoryAnalyzeService historyAnalyzeService) {
+        this.historyAnalyzeService = historyAnalyzeService;
     }
 
     @RequestMapping("/")
@@ -70,6 +81,32 @@ public class IndexController {
             return "forward:/login";
         }
         return "multiSearch";
+    }
+
+    @RequestMapping("/history")
+    public String logHistory(HttpServletRequest request){
+        if (request.getSession().getAttribute("userId") == null){
+            return "forward:/login";
+        }
+        return "history";
+    }
+
+    @RequestMapping("/errorReport")
+    public String logHistoryErrorReport(Model model, HttpServletRequest request,
+                                        @RequestParam("id") String historyLogReportId){
+        if (request.getSession().getAttribute("userId") == null){
+            return "forward:/login";
+        }
+        HistoryLogReport historyLogReport = historyAnalyzeService.historyErrorReport(historyLogReportId);
+        model.addAttribute("errorNumber",historyLogReport.getErrorNumber());
+        model.addAttribute("timeOutWarningNumber",historyLogReport.getTimeoutWarningNumber());
+        List<HistoryError> historyErrorList = (List<HistoryError>) historyLogReport.getHistoryErrors();
+        List<String> errorMessageList = new ArrayList<>();
+        for (HistoryError historyError:historyErrorList) {
+            errorMessageList.add(historyError.getHistoryErrorMessage());
+        }
+        model.addAttribute("errorList",errorMessageList);
+        return "errorReport";
     }
 
 }

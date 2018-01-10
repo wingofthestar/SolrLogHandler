@@ -63,7 +63,7 @@ public class ReportService {
         }
 
         if(errorMap.get(error1) > 0){
-            errorReportList.add("存在" + errorMap.get(error1) + "处数据库控制更新异常");
+            errorReportList.add("存在" + errorMap.get(error1) + "处数据库状态控制更新异常");
         }
         if(errorMap.get(error2) > 0){
             errorReportList.add("存在" + errorMap.get(error2) + "处数据库表执行detach失败异常");
@@ -72,11 +72,55 @@ public class ReportService {
             errorReportList.add("存在" + errorMap.get(error3) + "处TSP服务异常");
         }
         if(errorMap.get(error4) > 0){
-            errorReportList.add("存在" + errorMap.get(error4) + "处未知异常");
+            errorReportList.add("存在" + errorMap.get(error4) + "处其他未知异常");
         }
 
         return errorReportList;
     }
+
+    public Map<String, Integer> errorMessageAndErrorNumberMap(){
+        Map<String, Integer> errorMap = new HashMap<>();
+        errorMap.put(error1, 0);
+        errorMap.put(error2, 0);
+        errorMap.put(error3, 0);
+        errorMap.put(error4, 0);
+        List<String> errorReportList = new ArrayList<>();
+        List<LogInfo> logInfoList =  solrLogInfoRepository.findByLevel("E");
+        for (LogInfo logInfo:logInfoList) {
+            if(logInfo.getContent().contains("数据库状态控制更新异常")){
+                errorMap.put(error1, errorMap.get(error1) + 1);
+            }else if(logInfo.getContent().contains("执行detach失败")){
+                errorMap.put(error2, errorMap.get(error2) + 1);
+            }else if(logInfo.getContent().contains("TSP服务异常")){
+                errorMap.put(error3, errorMap.get(error3) + 1);
+            }else {
+                errorMap.put(error4, errorMap.get(error4) + 1);
+            }
+        }
+
+        Map<String, Integer> errorMessageAndErrorNumberMap = new HashMap<>();
+
+        if(errorMap.get(error1) > 0){
+            errorReportList.add("存在" + errorMap.get(error1) + "处数据库状态控制更新异常");
+            errorMessageAndErrorNumberMap.put("存在" + errorMap.get(error1) + "处数据库状态控制更新异常", errorMap.get(error1));
+        }
+        if(errorMap.get(error2) > 0){
+            errorReportList.add("存在" + errorMap.get(error2) + "处数据库表执行detach失败异常");
+            errorMessageAndErrorNumberMap.put("存在" + errorMap.get(error2) + "处数据库表执行detach失败异常", errorMap.get(error2));
+        }
+        if(errorMap.get(error3) > 0){
+            errorReportList.add("存在" + errorMap.get(error3) + "处TSP服务异常");
+            errorMessageAndErrorNumberMap.put("存在" + errorMap.get(error3) + "处TSP服务异常", errorMap.get(error3));
+        }
+        if(errorMap.get(error4) > 0){
+            errorReportList.add("存在" + errorMap.get(error4) + "处其他未知异常");
+            errorMessageAndErrorNumberMap.put("存在" + errorMap.get(error4) + "处其他未知异常", errorMap.get(error4));
+        }
+
+        return errorMessageAndErrorNumberMap;
+    }
+
+
 
     /**
      *

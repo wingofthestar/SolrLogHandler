@@ -80,7 +80,7 @@ ul.unstyled,ol.unstyled, a.unstyled{
 }
 
 .sidebar div{
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .sidebar ul.nav li {
@@ -97,7 +97,7 @@ ul.unstyled,ol.unstyled, a.unstyled{
 .div2{
 	position: absolute;
 	margin-left: 200px;
-	margin-top: -550px;
+	margin-top: -530px;
 	height: 580px;
 	width: 920px;
 	border: solid 0px;

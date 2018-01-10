@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <title>日志检索分析系统</title>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>日志检索分析系统</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/font-awesome.min.css" rel="stylesheet">
+	    <link href="css/index.css" rel="stylesheet">
+	    <!--<link href="css/buttons.css" rel="stylesheet">-->
+	    <link href="css/reset.css" rel="stylesheet">
+	    <link href="css/history.css" rel="stylesheet">
+	    <link rel="stylesheet" href="css/bootstrap-table.css">
+        <link href="img/favicon.ico" rel="shortcut icon">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="img/favicon.ico" rel="shortcut icon">
-
-</head>
-<body>
-	
-	<nav class="navbar navbar-fixed-top navbar-self">
+    </head>
+	<body>
+		<nav class="navbar navbar-fixed-top navbar-self">
         <div class="container-fluid navbar-container-self">
             <img src="img/SolrLog2.png" class="navbar-logo pull-left"/>
             <p>日志检索分析系统</p>
@@ -36,7 +36,7 @@
             <div class="sidebar">
                 <div class="sidebar-1">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="active">
+                        <li class="inactive">
                             <a href="/index">
                                 <p>
                                     <i class="fa fa-tasks fa-lg fa-fw"></i>
@@ -86,10 +86,10 @@
                     </ul>
                 </div>
 
-				<div class="sidebar-5">
+                <div class="sidebar-5">
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="inactive">
-                            <a href="http://127.0.0.1:8983" target="_blank">
+                        <li class="active">
+                            <a href="#" target="_blank">
                                 <p>
                                     <i class=" fa fa-lg fa-fw fa-line-chart"></i>
                                     历史日志统计
@@ -113,74 +113,82 @@
                 </div>
 				
             </div>
-            <div class="div2">
-    			<div class="state">
-    				<span class="fa fa-desktop fa-5x des" style="color: red;" th:style="${style}"></span>
-    				<p>系统状态</p>
-    			</div>
-    			<div class="dis">
-    				<p th:text="${message}">系统运行异常</p>
-    			</div>
-    			<div class="data">
-    				<span class="fa fa-file-text fa-5x fes" style="color: blue;"></span>
-    				<p>日志文件</p>
-    			</div>
-    			<div class="file">
-    				<p>当前日志文件数：<label th:text="${logFileNumber}">88</label></p>
-    				
-    				<p>当前日志条数：<label th:text="${allLogInfoNumber}">13465</label></p>
-    				
-    			</div>
-    			<div class="falsh">
-    				<a id="flash" href="#" style="text-decoration: none;" data-toggle="modal" data-target="#myModal">
-    				<span class="fa fa-refresh fa-5x pes" style="color: green;"></span>
-    				<p>刷新索引</p>
-    				</a>
-    			</div>
-    			<div class="flash">
-    				<p>上次刷新索引时间</p>
-    				<span id="time" th:text="${time}">06:00:00</span>
-                    <h1 id="date" th:text="${date}">2017-05-06</h1>
-    			</div>
-    			<div class="questin">
-    				<div class="hh">
-    					<h1>日志报告</h1>
-    				</div>
-                    <p>系统存在<span th:text="${errorNumber}">40</span>条异常记录<br/>系统存在<span th:text="${timeOutWarningNumber}">32</span>条清算超时警告</p>
-    				<ul>
-    					<li type="disc" th:each="error:${errorList}" th:text="${error}">一个错误</li>
-    					<!--<li type="disc" th:text="${errorMessage}">一个错误</li>-->
-    					<!--<li type="disc" th:t>一个错误</li>-->
-    				</ul>
-    			</div>
-    		</div>
-    		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="myModalLabel">正在更新</h4>
-			      </div>
-			      <div class="modal-body">
-			        <div class="progress">
-					  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
+        <div class="history">
+      		<div class="date">
+      			<p>本年异常天数:&emsp;<label id="year"></label></p>
+      			<p>本月异常天数:&emsp;<label id="month"></label></p>
+      			<p>本周异常天数:&emsp;<label id="week"></label></p>
+      		</div>
+      		<div class="totle">
+      			<select id="choose" class="choose">
+      				<option id="Y"><h3>本年异常比例统计</h3></option>
+      				<option id="M"><h3>本月异常比例统计</h3></option>
+      				<option id="W"><h3>本周异常比例统计</h3></option>
+      			</select>
+      			
+      			<div class="window">
+      				
+	        		<p>数据库执行detach失败异常</p>
+	        		<div class="progress">
+					  <div id="d" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					    
 					  </div>
 					</div>
-			      </div>
-			      
-			    </div>
-              </div>
+				
+      			</div>
+      			<div class="window">
+      				
+	        		<p>TSP服务异常</p>
+	        		<div class="progress">
+					  <div id="t" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					    
+					  </div>
+					</div>
+				
+      			</div>
+      			<div class="window">
+      				
+	        		<p>控制更新异常</p>
+	        		<div class="progress">
+					  <div id="c" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					    
+					  </div>
+					</div>
+				
+      			</div>
+      			<div class="window">
+	        		<p>其他异常</p>
+	        		<div class="progress">
+					  <div id="o" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					    
+					  </div>
+					</div>
+				
+      			</div>
+        	</div>
+        	<div class="error">
+        		<h1>历史日志报告表</h1>
+        		<div class="detail"> <!--这个表的表头名你自己改下我不知道都是什么意思，-->
+				<table id="table">
+					<thead style="font-family: '微软雅黑'; font-size: 18px;">
+						<th data-field="historyLogReportId"><!--在这里改-->historyLogReportId</th>
+						<th data-field="errorNumber">errorNumber</th>
+						<th data-field="timeoutWarningNumber">timeoutWarningNumber</th>
+						<th data-field="allLogInfoNumber">allLogInfoNumber</th>
+						<th data-field="logFileNumber">logFileNumber</th>
+						<th data-field="historyLogDate">historyLogDate</th>
+					</thead>
+				</table>
 			</div>
-    	</div>
-    	
-	
-
-
-
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-</body>
+        	</div>
+        </div>
+        
+    </div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/history.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap-table.js"></script>
+		<script type="text/javascript" src="js/bootstrap-table-zh-CN.js"></script>
+		
+	</body>
 </html>

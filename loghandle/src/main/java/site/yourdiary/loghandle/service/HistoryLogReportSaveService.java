@@ -11,9 +11,7 @@ import site.yourdiary.loghandle.respository.jpa.HistoryLogReportRepository;
 import site.yourdiary.loghandle.respository.jpa.HistoryErrorRepository;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class HistoryLogReportSaveService {
@@ -49,14 +47,17 @@ public class HistoryLogReportSaveService {
             historyLogReport.setAllLogInfoNumber(reportService.allLogInfoNumber());
             historyLogReport.setHistoryLogDate(new Date());
             historyLogReport.setTimeoutWarningNumber(reportService.timeOutWarningNumber());
-            List<String> errorListReport = reportService.errorListReport();
-            for (String errorMessage : errorListReport) {
+            Map<String, Integer> errorMessageAndErrorNumberMap = reportService.errorMessageAndErrorNumberMap();
+            Set<String> errorMessageKeySet = errorMessageAndErrorNumberMap.keySet();
+            for(String errorMessage : errorMessageKeySet){
                 HistoryError historyError = new HistoryError();
                 historyError.setHistoryErrorMessage(errorMessage);
                 historyError.setErrorType(HistoryLogReportSaveService.errorTypeCheck(errorMessage));
                 historyError.setHistoryLogReport(historyLogReport);
+                historyError.setErrorNumber(errorMessageAndErrorNumberMap.get(errorMessage));
                 historyErrorList.add(historyError);
             }
+
             historyLogReport.setHistoryErrors(historyErrorList);
             historyErrorRepository.save(historyErrorList);
             historyLogReportRepository.save(historyLogReport);

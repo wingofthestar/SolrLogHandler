@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap 101 Template</title>
+    <title>日志检索分析系统</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link href="img/favicon.ico" rel="shortcut icon">
 </head>
 <body>
 	
@@ -28,7 +29,8 @@
                         <img src="img/user.jpg" alt="用户头像" class="img-circle navbar-img">
                         <span class="caret"></span>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Logout</a></li>
+                            <li><a href="#" th:text="${session.userName}">用户名</a></li>
+                            <li><a href="/logout">Logout</a></li>
                         </ul>
                     </a>
                 </li>
@@ -79,7 +81,7 @@
                 <div class="sidebar-4">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="active">
-                            <a href="m-query.html">
+                            <a href="/multiSearch">
                                 <p>
                                     <i class="fa fa-search fa-lg fa-fw"></i>
                                     组合查询
@@ -90,6 +92,19 @@
                 </div>
 
                 <div class="sidebar-5">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="inactive">
+                            <a href="http://127.0.0.1:8983" target="_blank">
+                                <p>
+                                    <i class=" fa fa-lg fa-fw fa-line-chart"></i>
+                                    历史日志统计
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-6">
                     <ul class="nav nav-pills nav-stacked">
                         <li class="inactive">
                             <a href="http://127.0.0.1:8983" target="_blank">

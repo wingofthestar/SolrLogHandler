@@ -14,6 +14,7 @@ public class HistoryError {
     private String historyErrorId;
     private String historyErrorMessage;
     private int errorType;
+    private int errorNumber;
     @ManyToOne
     @JoinColumn(name = "history_log_report_id")
     private HistoryLogReport historyLogReport;
@@ -48,6 +49,14 @@ public class HistoryError {
 
     public void setErrorType(int errorType) {
         this.errorType = errorType;
+    }
+
+    public int getErrorNumber() {
+        return errorNumber;
+    }
+
+    public void setErrorNumber(int errorNumber) {
+        this.errorNumber = errorNumber;
     }
 
     @Override

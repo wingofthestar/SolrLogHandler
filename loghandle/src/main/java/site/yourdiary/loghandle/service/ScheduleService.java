@@ -35,7 +35,7 @@ public class ScheduleService {
     /**
      * 每天定时同步初始化数据库和Solr索引库
      */
-    @Scheduled(cron = "1 0 0 * * ?") //每天00:00:01的时候执行一次
+    @Scheduled(cron = "1 0 0 * * ?")
     public void initScheduler(){
         try {
             logger.info("开始执行schedule操作{}" + dateFormat.format(new Date()));
@@ -49,7 +49,7 @@ public class ScheduleService {
     /**
      * 每天定时存储历史日志报告信息
      */
-    @Scheduled(cron = "59 59 23 * * ?") //每天23:59:59的时候执行一次
+    @Scheduled(cron = "59 59 23 * * ?")
     public void historyLogSaveScheduler(){
         try {
             logger.info("开始执行schedule操作{}" + dateFormat.format(new Date()));

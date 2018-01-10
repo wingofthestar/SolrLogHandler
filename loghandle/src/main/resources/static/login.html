@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-	<meta charset="UTF-8">
-	<title>日志检索分析系统</title>
-	<link rel="stylesheet" type="text/css" href="css/login.css"/>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-	<link href="img/favicon.ico" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <title>日志检索分析系统</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link href="img/favicon.ico" rel="shortcut icon">
 
 </head>
 <body>
-	<div class="head">
-	<div class="header">
-	</div>	
-		<a class="home" style="margin-left:20px;">首页</a>
-		<!--<a class="home" style="margin-left:1130px;">关于我们</a>	-->
-	</div>
-	<div class="login">
-			<h3>账户登陆</h3>
-			<form action="/login" method="post">
-				<input type="text" id="userName" placeholder="请输入账号" name="userName"/>
-				<input  type="password" id="password" placeholder="请输入密码" name="password"/>
-			</form>
-			<button type="button" class="btn btn-primary sub" id="submit">登录</button>
-	</div>
-	<div class="maintitle">
-		<div class="picture">
-		<img src="img/SolrLog.png" height="150px">
-		</div>
-		<h1>&nbsp日志检索系统<br/>欢   迎    您    的   使  用 </h1>
-	</div>
-	<div class="bottom">
-	<tr style="text-align: center">
-<hr />
-	<center>
-   <p style="font-size: 15px" style="text-align:center"> Copyright © 2018 star Inc. <br />保留所有权利。隐私政策 使用条款 销售政策 法律信息 网站地图</p>
-   </center>
-	</div>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script src="js/login.js"></script>
+<div class="head">
+    <div class="header">
+    </div>
+    <a class="home" style="margin-left:20px;">首页</a>
+    <!--<a class="home" style="margin-left:1130px;">关于我们</a>	-->
+</div>
+<div class="login">
+    <h3>账户登陆</h3>
+    <form action="/loginCheck" method="get">
+        <input type="text" id="userName" placeholder="请输入账号" name="userName"/>
+        <input type="password" id="password" placeholder="请输入密码" name="password"/>
+    </form>
+    <button type="button" class="btn btn-primary sub" id="submit">登录</button>
+</div>
+<div class="maintitle">
+    <div class="picture">
+        <img src="img/SolrLog.png" height="150px">
+    </div>
+    <h1>&nbsp日志检索系统<br/>欢 迎 您 的 使 用 </h1>
+</div>
+<div class="bottom">
+    <tr style="text-align: center">
+        <hr/>
+        <center>
+            <p style="font-size: 15px;text-align:center"> Copyright © 2018 star Inc. <br/>保留所有权利。隐私政策 使用条款 销售政策 法律信息
+                网站地图</p>
+        </center>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/login.js"></script>
 </body>
 </html>

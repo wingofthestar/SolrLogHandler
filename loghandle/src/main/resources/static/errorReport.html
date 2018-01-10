@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>日志检索分析系统</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/font-awesome.min.css" rel="stylesheet">
+	    <link href="css/index.css" rel="stylesheet">
+	    <!--<link href="css/buttons.css" rel="stylesheet">-->
+	    <link href="css/reset.css" rel="stylesheet">
+	    <link href="css/error.css" rel="stylesheet">
+	    <link rel="stylesheet" href="css/bootstrap-table.css">
+        <link href="img/favicon.ico" rel="shortcut icon">
+
+    </head>
+	<body>
+		<nav class="navbar navbar-fixed-top navbar-self">
+        <div class="container-fluid navbar-container-self">
+            <img src="img/SolrLog2.png" class="navbar-logo pull-left"/>
+            <p>日志检索分析系统</p>
+            <ul class="nav pull-right navbar-spinner-self unstyled">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle unstyled" data-toggle="dropdown">
+                        <img src="img/user.jpg" alt="用户头像" class="img-circle navbar-img">
+                        <span class="caret"></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" th:text="${session.userName}">用户名</a></li>
+                            <li><a href="/logout">Logout</a></li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container container-self">   
+        <div class="error">
+        	<div class="hh">
+        		<p>日志报告</p>
+        	</div>
+      		<h1>系统存在<span id="e"></span>条异常记录<br/>系统存在<span id="t"></span>条清算超时警告</h1>
+    				<ul>
+    					<li type="disc" id="list1"></li>
+    					<li type="disc" id="list2"></li>
+    					<li type="disc" id="list3"></li>
+    				</ul>
+        </div>
+        
+    </div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/errorLog.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/errorLog.js"></script>
+	</body>
+</html>
